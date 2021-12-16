@@ -4,7 +4,7 @@ This repository stands to provide access to the tools used and created during th
 This project specifically investigated music as a nostalgic intervention.
 
 The repository includes:
-  1. Pulled Billboard API charts
+  1. Pulled Billboard API charts (python file for pulling data and then csv for final data pulled)
   2. Markdown file for creating shiny app
   3. Shiny app link to Music Nostalgia Dashboard
   4. Dataframe with the results of the study investigating the effectiness of the dashboard
