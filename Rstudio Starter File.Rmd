@@ -1,0 +1,437 @@
+---
+title: "DA 401 Study Data Analysis"
+author: "Claire Powell"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output: 
+  html_document:
+    toc: true
+    toc_depth: 3
+    code_folding: show
+    theme: journal
+  
+---
+
+```{r setup, include=FALSE}
+###########################################################################
+################# DON'T DELETE THIS PART!!!!!##############################
+###########################################################################
+                                                                          #
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)      #
+                                                                          #
+library(tidyverse)           #The tidyverse has all of our data tools     #
+library(ggthemes)            #ggthemes makes our graphs look nicer        #
+                                                                          # 
+theme_set(                                #this sets the theme for all    #
+  theme_tufte() +                         #plots that we make             #
+  theme(text=element_text(family="sans")) + 
+  theme(axis.text.x = element_text(angle=-90))                             #
+  )                                                                       #
+                                                                          #
+                                                                          #
+                                                                          #
+### Below is where you read and store your data.                          #
+                                                                          #
+music_401 <- read.csv("final_study.csv")
+pStates <- read.csv("final_states.csv")
+                                                                          #
+                                                                          #
+                                                                          #
+############# ^ ################################# ^ #######################
+############# | ## DON'T DELETE THIS PART!!!!!### | #######################
+############# | ################################# | #######################
+```
+
+```{r}
+library(colorBlindness)
+```
+
+
+```{r}
+music_401
+
+music_401$Control. <- as.factor(music_401$Control.)
+
+music_401 %>% rename(RemBump = Control.) -> music_401
+
+music_401 %>% rename(BirthYear = Year.Born) -> music_401
+
+music_401 %>% mutate_all(na_if, "") -> music_401
+
+
+music_401
+```
+
+```{r}
+pStates %>% select(Birth_State, Participant_ID) -> states_1
+
+merge(music_401, states_1, by = "Participant_ID", all.x = TRUE) -> study_data
+
+
+study_data %>% rename(Song = Track) -> study_data
+
+study_data
+```
+
+```{r}
+lm(Memory ~ Know_Prior, data = study_data) -> first_lm
+
+summary(first_lm)
+```
+
+```{r}
+lm(Memory ~ Know_After, data = study_data) -> second_lm
+
+summary(second_lm)
+```
+
+
+```{r}
+lm(Memory ~ Know_Prior + Genre*RemBump + Gender + Age, data = study_data) -> third_lm
+
+summary(third_lm)
+```
+
+```{r}
+library(plm)
+
+fixed_mod <- plm(Memory ~ RemBump,
+                 data = study_data,
+                 index = "Age",
+                 model = "within")
+
+summary(fixed_mod)
+```
+
+
+```{r}
+study_data$Participant_ID <- as.factor(study_data$Participant_ID)
+
+study_data %>% group_by(Participant_ID, Age, Genre) %>% summarise(Total_Mems = sum(Memory)) -> totmems
+
+study_data$RemBump <- as.factor(study_data$RemBump)
+
+study_data %>% group_by(Participant_ID, RemBump) %>% summarise(Total_Mems = sum(Memory)) -> totMemsInBump
+```
+
+
+```{r}
+billboard <- read_csv("music_da401_4.csv")
+
+billboard %>% select(Song, Rank, Year) -> rank
+
+rank %>% distinct(Song, .keep_all=TRUE) -> rank
+
+merge(study_data, rank, by="Song", all.x = TRUE) -> s_data
+
+s_data$Genre <- gsub("rock", "Rock", s_data$Genre)
+```
+
+
+```{r}
+lm(Memory ~ Know_Prior + Genre*RemBump + Gender + Age + Rank, data = s_data) -> third_lm
+
+summary(third_lm)
+```
+
+```{r}
+library(ggplot2)
+```
+
+```{r}
+s_data %>% filter(Memory==1) %>% filter(Participant_ID!="1010") %>% filter(Age < 30)%>% select(Participant_ID, Age, Age_To_Release) %>% group_by(Participant_ID, Age) %>% summarise(Mean=mean(Age_To_Release)) -> mean_relevance
+
+mean_relevance 
+
+ggplot(mean_relevance, aes(x = Age, y = Mean, color = Mean)) + geom_point() +
+  geom_hline(yintercept = 0, color="red") +
+  labs(title = "Participant average distance between year of song release & year of memory")
+```
+
+```{r}
+totmems
+
+totmems %>% ggplot(aes(x = Age, y = Total_Mems, color=Genre)) + geom_point()
+```
+
+
+```{r}
+lm(Age_mem ~ Year_Released*RemBump + Age + Genre + Know_Prior, data = s_data) -> mod1
+
+summary(mod1)
+```
+
+
+```{r}
+s_data %>% group_by(Genre, RemBump) %>% mutate(sum(Memory))
+
+s_data %>% filter(Memory==1) %>% group_by(Genre) %>% mutate(Total_Mems = sum(Memory)) -> memCountsGenre
+
+ggplot(memCountsGenre, aes(x=Genre, Y=Total_Mems)) + geom_bar()
+
+```
+
+```{r}
+lm(Total_Mems ~ Genre, data = memCountsGenre) -> mod2
+
+summary(mod2)
+```
+
+
+```{r}
+s_data %>% filter(Know_After == 1) %>% summarise(sum(Memory))
+
+s_data %>% count(Know_After==1)
+
+59/130
+
+s_data %>% filter(RemBump==1) %>% count(Memory==1)
+
+218/445
+
+149/380
+```
+
+
+```{r}
+fixed_mod2 <- plm(Age_mem ~ Age + Rank + Genre + Gender + RemBump,
+                 data = s_data,
+                 index = "Year_Released",
+                 model = "within")
+#names(fixed_mod2$coefficients) <- c('Age', "Rank", "Country Music", "Dance/Electronic Music", "Pop Music","R&B and Hip-Hop Music", "Rap Music", "Rock Music", "Male Participants", "Within Reminiscence Bump")
+
+summary(fixed_mod2)
+```
+
+```{r}
+library(sjPlot)
+
+plot_model(fixed_mod2, sort.est = TRUE, show.values = TRUE, value.offset = 0.3, colors = c("#dd1c77", "#31a354"), title = "Fixed Effects Model Estimates Pertaining to Age at Memory Experience") +
+  scale_x_discrete(labels=list(
+    `GenreR&B and Hip-Hop` = "R&B and Hip-Hop Music",
+    RemBump1 = "Within Reminiscence Bump",
+    `GenreCountry` = "Country Music",
+    `GenreDance/Electronic` = "Dance/Electronic Music",
+    `GenreRap` = "Rap Music",
+    Age = "Age",
+    `GenrePop` = "Pop Music",
+    Rank = "Rank",
+    `GenderM` = "Male Participant",
+    `GenreRock` = "Rock Music"
+  ))
+  
+```
+
+```{r}
+fixed_mod_updated <- plm(Age_mem ~ RemBump + Age, data = s_data, index = "Year_Released", model = "within")
+
+summary(fixed_mod_updated)
+```
+
+
+```{r}
+lm(Age_mem ~ Age + Rank + Year_Released + Genre + Gender + RemBump, data = s_data) -> modA
+
+summary(modA)
+```
+
+```{r}
+lm(Age_mem ~ Age + Rank + Year_Released + RemBump, data = s_data) -> updated_modA
+
+summary(updated_modA)
+```
+
+
+```{r}
+plot_model(modA, sort.est = TRUE, show.values = TRUE, value.offset = 0.3, colors = c("#dd1c77", "#31a354"), title = "Multiple Linear Regression Model Estimates for Age at Memory Experience") +
+   scale_x_discrete(labels=list(
+    `RemBump1` = "Within Reminiscence Bump",
+    `GenreR&B and Hip-Hop` = "R&B and Hip-Hop Music",
+    `GenreCountry` = "Country Music",
+    `GenreDance/Electronic` = "Dance/Electronic Music",
+    `GenrePop` = "Pop Music",
+    Age = "Age",
+    Year_Released = "Year of Song Release",
+    `GenreRap` = "Rap Music",
+    Rank = "Rank",
+    `GenreRock` = "Rock Music",
+    `GenderM` = "Male Participants"
+  ))
+```
+
+```{r}
+s_data %>% filter(Age >= 30) %>% group_by(Participant_ID, Age) %>% mutate(Tot_Mems = sum(Memory)) -> oldmems
+
+summary(oldmems)
+```
+
+```{r}
+s_data %>% filter(Age < 30) %>% group_by(Participant_ID, Age) %>% summarise(Tot_Mems = sum(Memory)) %>% mutate(sum(Tot_Mems)/36) -> mems
+
+summary(mems)
+```
+
+```{r}
+billboard %>% group_by(Genre, Year) %>% summarise(Max = max(Rank)) -> billboard_chart_counts
+
+billboard_chart_counts %>% filter(Genre != "Gospel") %>% filter(Genre != "Christian") %>% filter(Genre != "Latin") %>% ggplot(aes(x = Year, y = Max, color = Genre))
+```
+
+```{r}
+spline.d <- as.data.frame(spline(billboard_chart_counts$Year, billboard_chart_counts$Max))
+
+spline.d
+
+ggplot(spline.d, aes(x, y)) + geom_line()
+```
+
+
+```{r fig.width=4}
+billboard_chart_counts %>% filter(Genre != "Gospel") %>% filter(Genre != "Christian") %>% filter(Genre != "Latin") %>% ggplot(aes(x = Year, y = Max, color=Genre)) + geom_smooth() +
+  labs(title = "Year-End Chart Lengths by Year and Genre", y = "Year-End Chart Lengths") +
+  scale_color_brewer(palette = "Accent")
+```
+
+
+```{r}
+s_data %>% group_by(Rank) %>% summarise(Tot_mems = sum(Memory)) -> rankmems
+
+#rankmems$Rank <- as.factor(rankmems$Rank)
+
+rankmems %>% ggplot(aes(x = Rank, y = Tot_mems)) + geom_line() + geom_smooth(method = "lm") + ylim(0,20)
+
+```
+
+```{r}
+rankmems$Rank <- as.factor(rankmems$Rank)
+
+ggplot(rankmems, aes(x = Rank, y = Tot_mems)) + geom_bar()
+```
+
+
+
+```{r fig.width=4}
+colourCount = length(unique(s_data$RemBump))
+
+s_data %>% filter(Memory==1) %>% ggplot(aes(x = Age, y = Age_To_Release, color=RemBump)) + geom_point() + 
+  geom_hline(yintercept = 0, color = "grey") +
+  labs(title = "Distance between song release year and year of experienced memory by age", y = "Distance", color="Reminiscence Bump Years") +
+  scale_color_manual(labels = c("Within", "Outside"), values = colorRampPalette(brewer.pal(6, "Accent"))(colourCount))
+
+```
+
+
+```{r}
+library(ggpubr)
+library(RColorBrewer)
+
+s_data <- s_data %>% add_column("Age Group" = if_else(.$Age > 30, "Above 30", "Below 30"))
+
+s_data
+
+colourCount = length(unique(s_data$`Age Group`))
+
+ggdensity(s_data, x = "Age_mem", fill = "Age Group") + labs(title = "Distribution of ages from which memories occurred", x = "Age at the time of memory") +
+  theme(legend.position = c(0.8, 0.8)) + scale_fill_manual(values = colorRampPalette(brewer.pal(6, "Accent"))(colourCount))
+  
+#scale_color_brewer(palette = "Paired")
+```
+
+```{r}
+library(Rmisc)
+
+s_data %>% filter(Mem_pos_neg == 1) %>% filter(Age >= 30) -> old
+s_data %>% filter(Mem_pos_neg == 1) %>% filter(Age < 30) -> young
+
+CI(old$Age_mem, ci=0.90)
+
+s_data %>% group_by(Participant_ID) %>% mutate(count("Memory")/18)
+
+s_data %>% group_by(Participant_ID) %>% summarise(sum(Memory))
+
+s_data %>% filter(RemBump == 0) %>%count("Memory")
+
+
+s_data %>% filter(Mem_pos_neg == 1) -> save
+CI(save$Age_mem, ci=0.95)
+
+s_data %>% filter(`Age Group` == "Below 30")%>% filter(Know_After == 0) %>% count("Memory")
+
+
+
+24/230
+```
+
+
+```{r}
+library(formattable)
+library(kableExtra)
+
+
+table1 <- data.frame(Variable = c("Percent memories recalled", "Average total amount of memories recalled per participant", "Average amount of memories recalled from RB years", "Average amount of memories recalled from years outside of RB", "Percent negative memories", "Percent memories recalled with no recognition of song", "Age range of memories recalled from songs within RB", "95% confidence interval for RB", "Top participant-selected genre", "Genre invoking most memories"), Total = c("44.3%", 8.3, 4.7, 3.2, "3.8%", "13.9%", "7-51", "16.14-17.54", "Rock", "Rap"), `Above 30` = c("49.4%", 8.9, 4.6, 4.3, "8.3%", "23.3%", "8-51", "21.49-25.93", "Rock", "Rock"), `Below 30` = c("42.9%", 7.7, 4.8, 2.9, "2.6%", "10.4%", "4-25", "14.47-15.32", "Rap", "Rap"))
+
+table1 %>% kbl(col.names = c("Variable", "Total","Above 30","Below 30")) %>%
+  kable_material() %>%
+  kable_material("striped") %>%
+  row_spec(8, bold = T, color = "white", background = "#4C9A2A")
+
+```
+
+```{r}
+s_data %>% group_by(Participant_ID) %>% count("Genre") -> genre_freq
+
+s_data %>% filter(`Age Group` == "Above 30") %>% count("Genre") -> genre_old
+
+genre_yound <- s_data %>% filter(`Age Group` == "Below 30") %>% count("Genre")
+
+genre_old$Age <- "Above 30"
+genre_yound$Age <- "Below 30"
+
+genres <- rbind(genre_old, genre_yound)
+genres %>% mutate(Count = freq/6) -> genres
+
+
+```
+
+```{r}
+s_data %>% select(Genre, `Age Group`) -> gen
+
+s_data %>% ggplot(aes(x = Genre, fill = `Age Group`)) + geom_histogram(stat="count")
+
+colourCount = length(unique(genres$Age))
+
+ggplot(genres, aes(fill=Age, y = Count, x = Genre)) +
+  geom_bar(position = "dodge", stat = "identity") +
+  scale_fill_manual(values = colorRampPalette(brewer.pal(6, "Accent"))(colourCount)) +
+  labs(y = "Frequency", title = "Frequency of genre selections among participants") +
+  geom_text(aes(label=Count), vjust=-.5, position = position_dodge(0.9))
+```
+
+
+```{r}
+s_data %>% filter(`Age Group` == "Below 30") %>% count("Age_mem")
+
+s_data %>% filter(`Age Group`=="Above 30")%>% count("Age_mem")
+
+s_data %>% filter(Memory==1) %>% group_by(Genre) %>% summarise(mean("Age_mem"))
+
+s_data %>% filter(Know_After == 0) %>% count("Memory")
+
+s_data %>% count("Memory")
+
+44/367
+
+s_data %>% filter(Mem_pos_neg == 0) %>% filter(`Age Group` == "Below 30")
+
+s_data %>% filter(`Age Group` == "Above 30") %>% summary()
+
+s_data %>% filter(Know_After == 0) %>% filter(`Age Group`=="Below 30") %>% count("Memory")
+
+
+```
+
+
+```{r}
+t.test(Age_mem~RemBump, data = s_data)
+```
+
+
