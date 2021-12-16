@@ -1,0 +1,246 @@
+---
+title: "Musical Nostalgia Playlist Dashboard"
+runtime: shiny
+output: html_document
+---
+
+```{r include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+```
+
+This app was created by Claire Powell (Denison University Data Analytics Department 2022) to look at music and its ability to evoke nostalgic memories. Enjoy being reminded of songs you may have forgetten!
+
+```{r message=FALSE, echo=FALSE}
+library(readr)
+library(dplyr)
+music401 <- read_csv("music_da401_4.csv")
+
+alternative <- music401%>% filter(Genre=="Alternative") #1970
+r_b <- music401%>% filter(Genre=="R&B and Hip-Hop") #1970
+country <- music401%>% filter(Genre=="Country") #1970
+gospel <- music401%>% filter(Genre=="Gospel") #2006
+christian<- music401%>% filter(Genre=="Christian") #2005
+pop <- music401%>% filter(Genre=="Pop") #1970
+rap <- music401%>% filter(Genre=="Rap") #1990
+rock <- music401%>% filter(Genre=="Rock") #1985
+latin <- music401%>% filter(Genre=="Latin") #1989
+dance <- music401 %>% filter(Genre=="Dance/Electronic") #2013
+
+```
+
+```{r message=FALSE, echo=FALSE}
+library(DT)
+yearFunction <- function(n, g1, g2, g3) {
+  if (n>=1996){
+    youth_g1 <- g1 %>% filter(Year>=n+10)
+    pick <- sample(1:nrow(youth_g1), 3, replace = FALSE)
+    pick_g1 <- youth_g1$Song[pick[1]]
+    artist_g1 <- youth_g1$Artist[pick[1]]
+    pick2_g1 <- youth_g1$Song[pick[2]]
+    artist2_g1 <- youth_g1$Artist[pick[2]]
+    pick3_g1 <- youth_g1$Song[pick[3]]
+    artist3_g1 <- youth_g1$Artist[pick[3]]
+    old_g1 <- g1 %>% filter(Year<=n+17)
+    o_pick <- sample(1:nrow(old_g1), 3, replace = FALSE)
+    o_pick_g1 <- old_g1$Song[o_pick[1]]
+    o_artist_g1 <- old_g1$Artist[o_pick[1]]
+    o_pick2_g1 <- old_g1$Song[o_pick[2]]
+    o_artist2_g1 <- old_g1$Artist[o_pick[2]]
+    o_pick3_g1 <- old_g1$Song[o_pick[3]]
+    o_artist3_g1 <- old_g1$Artist[o_pick[3]]
+    youth_g2 <- g2 %>% filter(Year>=n+10)
+    pick2 <- sample(1:nrow(youth_g2), 3, replace = FALSE)
+    pick_g2 <- youth_g2$Song[pick2[1]]
+    artist_g2 <- youth_g2$Artist[pick2[1]]
+    pick2_g2 <- youth_g2$Song[pick2[2]]
+    artist2_g2 <- youth_g2$Artist[pick2[2]]
+    pick3_g2 <- youth_g2$Song[pick2[3]]
+    artist3_g2 <- youth_g2$Artist[pick2[3]]
+    old_g2 <- g2 %>% filter(Year<=n+17)
+    o_pick2 <- sample(1:nrow(old_g2), 3, replace = FALSE)
+    o_pick_g2 <- old_g2$Song[o_pick2[1]]
+    o_artist_g2 <- old_g2$Artist[o_pick2[1]]
+    o_pick2_g2 <- old_g2$Song[o_pick2[2]]
+    o_artist2_g2 <- old_g2$Artist[o_pick2[2]]
+    o_pick3_g2 <- old_g2$Song[o_pick2[3]]
+    o_artist3_g2 <- old_g2$Artist[o_pick2[3]]
+    youth_g3 <- g3 %>% filter(Year>=n+10)
+    pick3 <- sample(1:nrow(youth_g3), 3, replace = FALSE)
+    pick_g3 <- youth_g3$Song[pick3[1]]
+    artist_g3 <- youth_g3$Artist[pick3[1]]
+    pick2_g3 <- youth_g3$Song[pick3[2]]
+    artist2_g3 <- youth_g3$Artist[pick3[2]]
+    pick3_g3 <- youth_g3$Song[pick3[3]]
+    artist3_g3 <- youth_g3$Artist[pick3[3]]
+    old_g3 <- g3 %>% filter(Year<=n+17)
+    o_pick3 <- sample(1:nrow(old_g3), 3, replace = FALSE)
+    o_pick_g3 <- old_g3$Song[o_pick3[1]]
+    o_artist_g3 <- old_g3$Artist[o_pick3[1]]
+    o_pick2_g3 <- old_g3$Song[o_pick3[2]]
+    o_artist2_g3 <- old_g3$Artist[o_pick3[2]]
+    o_pick3_g3 <- old_g3$Song[o_pick3[3]]
+    o_artist3_g3 <- old_g3$Artist[o_pick3[3]]
+    df <- data.frame(Song = c(pick_g1, pick2_g1, pick3_g1, pick_g2, pick2_g2, pick3_g2, pick_g3, pick2_g3, pick3_g3, o_pick_g1, o_pick2_g1, o_pick3_g1, o_pick_g2, o_pick2_g2, o_pick3_g2, o_pick_g3, o_pick2_g3, o_pick3_g3), Artist = c(artist_g1, artist2_g1, artist3_g1, artist_g2, artist2_g2, artist3_g2, artist_g3, artist2_g3, artist3_g3, o_artist_g1, o_artist2_g1, o_artist3_g1, o_artist_g2, o_artist2_g2, o_artist3_g2, o_artist_g3, o_artist2_g3, o_artist3_g3))
+  }
+  else {
+    rb_g1 <- g1 %>% filter(Year > n+10 & Year <= n+25)
+    pick <- sample(1:nrow(rb_g1), 3, replace = FALSE)
+    pick_g1 <- rb_g1$Song[pick[1]]
+    artist_g1 <- rb_g1$Artist[pick[1]]
+    pick2_g1 <- rb_g1$Song[pick[2]]
+    artist2_g1 <- rb_g1$Artist[pick[2]]
+    pick3_g1 <- rb_g1$Song[pick[3]]
+    artist3_g1 <- rb_g1$Artist[pick[3]]
+    n_g1 <- g1 %>% filter(Year > n+25)
+    n_pick <- sample(1:nrow(n_g1), 3, replace = FALSE)
+    npick_g1 <- n_g1$Song[n_pick[1]]
+    nartist_g1 <- n_g1$Artist[n_pick[1]]
+    npick2_g1 <- n_g1$Song[n_pick[2]]
+    nartist2_g1 <- n_g1$Artist[n_pick[2]]
+    npick3_g1 <- n_g1$Song[n_pick[3]]
+    nartist3_g1 <- n_g1$Artist[n_pick[3]]
+    rb_g2 <- g2 %>% filter(Year > n+10 & Year <= n+25)
+    pick2 <- sample(1:nrow(rb_g2), 3, replace = FALSE)
+    pick_g2 <- rb_g2$Song[pick2[1]]
+    artist_g2 <- rb_g2$Artist[pick2[1]]
+    pick2_g2 <- rb_g2$Song[pick2[2]]
+    artist2_g2 <- rb_g2$Artist[pick2[2]]
+    pick3_g2 <- rb_g2$Song[pick2[3]]
+    artist3_g2 <- rb_g2$Artist[pick2[3]]
+    n_g2 <- g2 %>% filter(Year > n+25)
+    n_pick2 <- sample(1:nrow(n_g2), 3, replace = FALSE)
+    npick_g2 <- n_g2$Song[n_pick2[1]]
+    nartist_g2 <- n_g2$Artist[n_pick2[1]]
+    npick2_g2 <- n_g2$Song[n_pick2[2]]
+    nartist2_g2 <- n_g2$Artist[n_pick2[2]]
+    npick3_g2 <- n_g2$Song[n_pick2[3]]
+    nartist3_g2 <- n_g2$Artist[n_pick2[3]]
+    rb_g3 <- g3 %>% filter(Year > n+10 & Year <= n+25)
+    pick3 <- sample(1:nrow(rb_g3), 3, replace = FALSE)
+    pick_g3 <- rb_g3$Song[pick3[1]]
+    artist_g3 <- rb_g3$Artist[pick3[1]]
+    pick2_g3 <- rb_g3$Song[pick3[2]]
+    artist2_g3 <- rb_g3$Artist[pick3[2]]
+    pick3_g3 <- rb_g3$Song[pick3[3]]
+    artist3_g3 <- rb_g3$Artist[pick3[3]]
+    n_g3 <- g3 %>% filter(Year > n+25)
+    n_pick3 <- sample(1:nrow(n_g3), 3, replace = FALSE)
+    npick_g3 <- n_g3$Song[n_pick3[1]]
+    nartist_g3 <- n_g3$Artist[n_pick3[1]]
+    npick2_g3 <- n_g3$Song[n_pick3[2]]
+    nartist2_g3 <- n_g3$Artist[n_pick3[2]]
+    npick3_g3 <- n_g3$Song[n_pick3[3]]
+    nartist3_g3 <- n_g3$Artist[n_pick3[3]]
+    df <- data.frame(Song = c(pick_g1, pick2_g1, pick3_g1, pick_g2, pick2_g2, pick3_g2, pick_g3, pick2_g3, pick3_g3, npick_g1, npick2_g1, npick3_g1, npick_g2, npick2_g2, npick3_g2, npick_g3, npick2_g3, npick3_g3), Artist = c(artist_g1, artist2_g1, artist3_g1, artist_g2, artist2_g2, artist3_g2, artist_g3, artist2_g3, artist3_g3, nartist_g1, nartist2_g1, nartist3_g1, nartist_g2, nartist2_g2, nartist3_g2, nartist_g3, nartist2_g3, nartist3_g3))
+  }
+  return(df)
+}
+```
+
+
+```{r message=FALSE, echo=FALSE}
+library(shiny)
+library(shinydashboard)
+library(shinyjs)
+
+window_height = 550
+
+ui <- fluidPage(
+  sidebarLayout(
+    sidebarPanel(
+      numericInput("num",
+                   label = "Birth Year",
+                   value = 1960,
+                   min = 1960, max = 2003,
+                   step = 1),
+      selectInput("var1",
+                  label = "Genre 1",
+                  choices = list("Alternative",
+                                 "Christian",
+                                 "Country",
+                                 "Dance/Electronic",
+                                 "Gospel",
+                                 "Latin",
+                                 "Pop",
+                                 "R&B and Hip-Hop",
+                                 "Rap",
+                                 "Rock"),
+                  selected = "Alternative"),
+      selectInput("var2",
+                  label = "Genre 2",
+                  choices = list("Alternative",
+                                 "Christian",
+                                 "Country",
+                                 "Dance/Electronic",
+                                 "Gospel",
+                                 "Latin",
+                                 "Pop",
+                                 "R&B and Hip-Hop",
+                                 "Rap",
+                                 "Rock"),
+                  selected = "Alternative"),
+      selectInput("var3",
+                  label = "Genre 3",
+                  choices = list("Alternative",
+                                 "Christian",
+                                 "Country",
+                                 "Dance/Electronic",
+                                 "Gospel",
+                                 "Latin",
+                                 "Pop",
+                                 "R&B and Hip-Hop",
+                                 "Rap",
+                                 "Rock"),
+                  selected = "Alternative"),
+      actionButton("button", "Submit")
+    ),
+    mainPanel(
+      dataTableOutput("dataframe1")
+    )))
+
+server <- function(input, output) {
+  playlist <- eventReactive(input$button, {
+    n <- input$num
+    g1 <- switch(input$var1,
+                 "Alternative" = alternative,
+                 "Christian" = christian,
+                 "Country" = country,
+                 "Dance/Electronic" = dance,
+                 "Gospel" = gospel,
+                 "Latin" = latin,
+                 "Pop" = pop,
+                 "R&B and Hip-Hop" = r_b,
+                 "Rap" = rap,
+                 "Rock" = rock)
+    g2 <- switch(input$var2,
+                 "Alternative" = alternative,
+                 "Christian" = christian,
+                 "Country" = country,
+                 "Dance/Electronic" = dance,
+                 "Gospel" = gospel,
+                 "Latin" = latin,
+                 "Pop" = pop,
+                 "R&B and Hip-Hop" = r_b,
+                 "Rap" = rap,
+                 "Rock" = rock)
+    g3 <- switch(input$var3,
+                 "Alternative" = alternative,
+                 "Christian" = christian,
+                 "Country" = country,
+                 "Dance/Electronic" = dance,
+                 "Gospel" = gospel,
+                 "Latin" = latin,
+                 "Pop" = pop,
+                 "R&B and Hip-Hop" = r_b,
+                 "Rap" = rap,
+                 "Rock" = rock)
+    yearFunction(n, g1, g2, g3)
+  })
+  output$dataframe1 <- renderDataTable({playlist()})
+}
+
+shinyApp(ui, server)
+```
+
+

@@ -1,0 +1,829 @@
+Participant_ID,Year Born,Age,Gender,Track,Artist,Genre,Control?,Year_Released,Know_Prior,Know_After,Memory,Mem_pos_neg,Age_mem,Age_To_Release
+1017,1981,40,M,Get Stoned,Hinder,Rock,0,2005,1,,1,1,21,-3
+1017,1981,40,M,Lonely Day,System of a Down,Rock,0,2005,1,,0,,,-24
+1017,1981,40,M,Cold(But I'm Still Here),Evans Blue,Rock,0,2006,0,0,0,,,-25
+1017,1981,40,M,Baby Mama,Fantasia,R&B and Hip-Hop,0,2004,0,0,0,,,-23
+1017,1981,40,M,Again,Janet Jackson,R&B and Hip-Hop,0,1993,1,,0,,,-12
+1017,1981,40,M,Treat U Rite,Angela Winbush,R&B and Hip-Hop,0,1994,0,0,0,,,-13
+1017,1981,40,M,Ever The Same,Rob Thomas,Pop,0,2005,0,0,1,1,21,-3
+1017,1981,40,M,Always On Your Side,Sheryl Crow & Sting,Pop,0,2005,0,0,0,,,-24
+1017,1981,40,M,When Did You Fall,Chris Rice,Pop,0,2005,0,0,0,,,-24
+1017,1981,40,M,All American Nightmare,Hinder,Rock,1,2010,0,0,0,,,-29
+1017,1981,40,M,Adrenaline,Shinedown,Rock,1,2012,1,,0,,,-31
+1017,1981,40,M,Letter From a Thief,Chevelle,Rock,1,2009,0,0,0,,,-28
+1017,1981,40,M,White Iverson,Post Malone,R&B and Hip-Hop,1,2016,0,1,0,,,-35
+1017,1981,40,M,No Shopping,French Montana & Drake,R&B and Hip-Hop,1,2016,0,0,0,,,-35
+1017,1981,40,M,Rude Boy,Rihanna,R&B and Hip-Hop,1,2009,1,,1,1,27,-1
+1017,1981,40,M,Renegades,X Ambassadors,Pop,1,2015,0,0,0,,,-34
+1017,1981,40,M,Never Far Away,Jim Brickman,Pop,1,2009,0,0,0,,,-28
+1017,1981,40,M,Attention,Charlie Puth,Pop,1,2018,1,,0,,,-37
+1007,2001,20,F,Stay,Florida Georgia Line,Country,0,2012,1,,1,1,16,5
+1007,2001,20,F,Meant To Be,Bebe Rexha & Florida Georgia Line,Country,0,2017,1,,1,1,17,1
+1007,2001,20,F,Rich,Maren Morris,Country,0,2017,1,,1,1,17,1
+1007,2001,20,F,Look Around,Red Hot Chili Peppers,Pop,0,2011,0,0,0,,,-10
+1007,2001,20,F,still feel.,half-alive,Pop,0,2019,0,0,0,,,-18
+1007,2001,20,F,Rope,Foo Fighters,Pop,0,2011,1,,1,1,14,4
+1007,2001,20,F,Want to Want Me,Jason Derulo,Alternative,0,2015,1,,0,,,-14
+1007,2001,20,F,Do What You Can,Bon Jovi,Alternative,0,2020,1,,1,1,20,1
+1007,2001,20,F,Lights Down Low,MAX & gnash,Alternative,0,2016,1,,1,1,18,3
+1007,2001,20,F,Baggage Claim,Miranda Lambert,Country,1,2011,1,,0,,,-10
+1007,2001,20,F,Get Me Some of That,Thomas Rhett,Country,1,2013,1,,0,,,-12
+1007,2001,20,F,The Walk,Sawyer Brown,Country,1,1991,0,1,0,,,10
+1007,2001,20,F,Perfect Situation,Weezer,Pop,1,2005,1,,1,1,16,12
+1007,2001,20,F,Trainwreck 1979,Death From Above 1979,Pop,1,2014,0,0,0,,,-13
+1007,2001,20,F,Break Away,Art Garfunkel,Pop,1,1975,0,1,1,1,16,42
+1007,2001,20,F,Diamond Girl,Seals and Crofts,Alternative,1,1973,0,0,0,,,28
+1007,2001,20,F,The Real Thing,Bo Bice,Alternative,1,2005,0,1,1,1,15,11
+1007,2001,20,F,Peek-A-Boo,Siouxsie and the Banshees,Alternative,1,1988,0,0,0,,,13
+1005,2000,21,F,Instant Crush,Daft Punk & Julian Casablancas,Dance/Electronic,0,2013,1,,0,,,-13
+1005,2000,21,F,Setting Fires,The Chainsmokers & XYLO,Dance/Electronic,0,2016,0,0,0,,,-16
+1005,2000,21,F,Good Things Fall Apart,ILLENIUM & Jon Bellion,Dance/Electronic,0,2019,1,,1,1,17,-2
+1005,2000,21,F,Believe It,PARTYNEXTDOOR & Rihanna,R&B and Hip-Hop,0,2020,1,,1,1,18,-2
+1005,2000,21,F,Lemon,N.E.R.D & Rihanna,R&B and Hip-Hop,0,2017,0,0,0,,,-17
+1005,2000,21,F,Rap God,Eminem,R&B and Hip-Hop,0,2013,1,,1,1,15,2
+1005,2000,21,F,Looking Up,Elton John,Pop,0,2016,1,,1,1,20,4
+1005,2000,21,F,This is What You Came For,Calvin Harris & Rihanna,Pop,0,2016,1,,1,1,12,-4
+1005,2000,21,F,A Light That Never Comes,Linkin Park & Steve Aoki,Dance/Electronic,0,2013,0,0,0,,,-13
+1005,2000,21,F,Until You Were Gone,"The Chainsmokers, Tritonal, & Emily Warren",Dance/Electronic,1,2015,1,,0,,,-15
+1005,2000,21,F,New York City,The Chainsmokers,Dance/Electronic,1,2015,1,,1,0,15,0
+1005,2000,21,F,Cherish,Kool & The Gang,R&B and Hip-Hop,1,1999,1,,0,,,1
+1005,2000,21,F,How To Love,Lil Wayne,R&B and Hip-Hop,1,2011,1,,1,1,20,9
+1005,2000,21,F,Control,Janet Jackson,R&B and Hip-Hop,1,1986,1,,1,1,15,29
+1005,2000,21,F,Dreaming With A Broken Heart,John Mayer,Pop,1,2006,1,,1,1,19,13
+1005,2000,21,F,Won't Go Home Without You,Maroon 5,Pop,1,2007,1,,1,1,15,8
+1005,2000,21,F,Domino,Jessie J,Pop,1,2011,1,,0,,,-11
+1005,2000,21,F,September,Daughtry,Pop,0,2009,1,,1,1,16,7
+1001,2000,21,F,Momma's House,Dustin Lynch,Country,0,2020,1,,0,,,-20
+1001,2000,21,F,I Wish Grandpas Never Died,Riley Green,Country,0,2019,1,,1,1,20,1
+1001,2000,21,F,Neon Light,Blake Shelton,Country,0,2014,1,,0,,,-14
+1001,2000,21,F,To a T,Ryan Hurd,Country,0,2019,1,,1,1,18,-1
+1001,2000,21,F,One Too Many,Keith Urban & P!nk,Country,0,2020,1,,0,,,-20
+1001,2000,21,F,Speechless,Dan + Shay,Country,0,2018,1,,1,1,17,-1
+1001,2000,21,F,What Do You Got?,Bon Jovi,Pop,0,2010,0,0,0,,,-10
+1001,2000,21,F,Something Just Like This,Chainsmokers & Coldplay,Pop,0,2017,1,,1,1,18,1
+1001,2000,21,F,Can't Help Falling In Love,Haley Reinhart,Pop,0,2016,1,,1,1,16,0
+1001,2000,21,F,"Shine, Shine, Shine",Eddy Raven,Country,1,1997,0,1,1,1,11,14
+1001,2000,21,F,Always On My Mind,Willie Nelson,Country,1,1982,1,,1,1,9,27
+1001,2000,21,F,That's My Story,Collin Raye,Country,1,1993,0,0,0,,,7
+1001,2000,21,F,Cleaning This Gun (Come On In Boy),Rodney Atkins,Country,1,2006,0,0,0,,,-6
+1001,2000,21,F,Loved Too Much,Ty Herndon,Country,1,1996,0,1,0,,,4
+1001,2000,21,F,It's Just a Matter of Time,Randy Travis,Country,1,1989,0,0,0,,,11
+1001,2000,21,F,I Never Told You,Colbie Caillat,Pop,1,2009,1,,1,1,8,-1
+1001,2000,21,F,All Through The Night,Cyndi Lauper,Pop,1,1983,0,0,0,,,17
+1001,2000,21,F,Making Memories of Us,Keith Urban  ,Pop,1,2007,0,1,0,,,-7
+1006,1998,23,M,Light It Up,Luke Bryan,Country,0,2017,0,0,1,1,12,-7
+1006,1998,23,M,What Happens In A Small Town,Brantley Gilbert & Lindsay Ell,Country,0,2018,1,,1,1,8,-12
+1006,1998,23,M,It Goes Like This,Thomas Rhett,Country,0,2013,0,1,1,1,12,-3
+1006,1998,23,M,High School,Nicki Minaj & Lil Wayne,Rap,0,2012,0,0,1,1,16,2
+1006,1998,23,M,Wake Up in the Sky,"Gucci Mane, Bruno Mars, & Kodak Black",Rap,0,2018,1,,0,,,-20
+1006,1998,23,M,Going Bad,Meek Mill & Drake,Rap,0,2018,1,,0,,,-20
+1006,1998,23,M,Tuesday,ILOVEMAKONNEN & Drake,R&B and Hip-Hop,0,2014,1,,1,1,17,1
+1006,1998,23,M,Main Chick,Kid Ink & Chris Brown,R&B and Hip-Hop,0,2014,1,,1,1,14,-2
+1006,1998,23,M,a lot,21 Savage,R&B and Hip-Hop,0,2018,1,,1,1,21,1
+1006,1998,23,M,Once In a Blue Moon,Earl Thomas Conley,Country,1,1981,0,0,0,,,17
+1006,1998,23,M,Coward Of The Country,Kenny Rogers,Country,1,1979,0,0,0,,,19
+1006,1998,23,M,"One Boy, One Girl",Collin Raye,Country,1,1995,0,1,1,1,13,16
+1006,1998,23,M,Ain't Worried About Nothin,French Montana ,Rap,1,2013,1,,0,,,-15
+1006,1998,23,M,Swimming Pools (Drank),Kendrick Lamar,Rap,1,2012,1,,1,1,16,2
+1006,1998,23,M,Sweet Lady,Tyrese,Rap,1,1998,0,0,0,,,0
+1006,1998,23,M,We Must Be in Love,The Impressions,R&B and Hip-Hop,1,1970,0,0,1,1,23,51
+1006,1998,23,M,Still Tippin',"Mike Jones, Paul Wall, & Slim Thug",R&B and Hip-Hop,1,2005,0,1,0,,,-7
+1006,1998,23,M,Rish As Fuck,Lil Wayne & 2 Chains,R&B and Hip-Hop,1,2013,1,,1,1,15,0
+1008,2002,19,M,From Can to Can't,"Corey Taylor, Dave Grohl, Rick Nielsen, Scott Reeder",Rock,0,2013,0,0,0,,,-11
+1008,2002,19,M,Sham Pain,Five Finger Death Punch,Rock,0,2018,0,1,1,1,14,-2
+1008,2002,19,M,The Sky Is A Neighborhood,Foo Fighters,Rock,0,2017,0,0,1,1,10,-5
+1008,2002,19,M,House on Fire,Rise Against,Alternative,0,2017,0,0,0,,,-15
+1008,2002,19,M,High Dive,Andrew McMahon in the Wilderness,Alternative,0,2014,0,0,0,,,-12
+1008,2002,19,M,Unbelievers,Vampire Weekend,Alternative,0,2013,0,1,1,1,12,1
+1008,2002,19,M,(Kissed You) Good Night,Gloriana,Country,0,2012,0,0,0,,,-10
+1008,2002,19,M,El Cerito Place,Kenny Chesney,Country,0,2012,0,0,0,,,-10
+1008,2002,19,M,Keep Me in Mind,Zac Brown Band,Country,0,2010,1,,1,1,10,2
+1008,2002,19,M,The Vengeful One,Disturbed,Rock,1,2015,0,1,0,,,-13
+1008,2002,19,M,The Pot,TOOL,Rock,1,2006,0,0,0,,,-4
+1008,2002,19,M,Fall Into Sleep,Mudvayne,Rock,1,2005,0,0,0,,,-3
+1008,2002,19,M,King Without a Crown,Matisyahu,Alternative,1,2006,0,0,1,1,13,9
+1008,2002,19,M,No Way Back,Foo Fighters,Alternative,1,2005,1,,1,1,10,7
+1008,2002,19,M,Adolescents,Incubus,Alternative,1,2011,0,0,0,,,-9
+1008,2002,19,M,Hell Of A Night,Dustin Lynch,Country,1,2014,0,1,1,1,13,1
+1008,2002,19,M,You Know Me Better Than That,George Straight,Country,1,1995,0,0,0,,,7
+1008,2002,19,M,Yeah,Joe Nichols,Country,1,2013,0,0,0,,,-11
+1014,1963,58,M,Carolyn's Fingers,Cocteau Twins,Alternative,0,1988,0,0,1,1,21,-4
+1014,1963,58,M,Desire,U2,Alternative,0,1988,1,,1,0,20,-5
+1014,1963,58,M,Back On The Breadline,Hunters & Collectors,Alternative,0,1988,0,0,1,1,21,-4
+1014,1963,58,M,Somebody,Bryan Adams,Rock,0,1984,1,,1,1,25,4
+1014,1963,58,M,I Will Not Go Quietly,Don Henley,Rock,0,1989,0,0,1,0,18,-8
+1014,1963,58,M,High Enough,Damn Yankees,Rock,0,1990,1,,1,0,25,-2
+1014,1963,58,M,I Don't Think She's In Love Anymore,Charley Pride,Country,0,1982,0,0,1,1,18,-1
+1014,1963,58,M,One Promise Too Late,Reba McEntire,Country,0,1986,0,0,0,,,-23
+1014,1963,58,M,I'm Still Crazy,Vern Gosdin,Country,0,1989,0,0,0,,,-26
+1014,1963,58,M,everything I wanted,Billie Eilish,Alternative,1,2019,0,0,1,0,21,-35
+1014,1963,58,M,Twisted Transistor,Korn,Alternative,1,2005,0,0,0,,,-42
+1014,1963,58,M,Stolen Dance,Milky Chance,Alternative,1,2014,0,0,0,,,-51
+1014,1963,58,M,Absolute Zero,Stone Sour,Rock,1,2012,0,0,0,,,-49
+1014,1963,58,M,Cold (But I'm Still Here),Evans Blue,Rock,1,2006,0,0,0,,,-43
+1014,1963,58,M,The Gift,Seether,Rock,1,2005,0,0,0,,,-42
+1014,1963,58,M,Anything Goes,Florida Georgia Line,Country,1,2014,1,,0,,,-51
+1014,1963,58,M,Alright,Darius Rucker,Country,1,2008,1,,1,1,51,6
+1014,1963,58,M,Work In Progress,Alan Jackson,Country,1,2002,0,0,0,,,-39
+1034,1996,25,F,Just Go,Lionel Richie & Akon,Pop,0,2009,0,0,0,,,-13
+1034,1996,25,F,A Thousand Years,Christina Perri,Pop,0,2011,1,,1,1,16,1
+1034,1996,25,F,Ain't It Fun,Paramore,Pop,0,2013,1,,1,1,10,-7
+1034,1996,25,F,Too Good,Drake & Rihanna,Rap,0,2016,1,,1,1,21,1
+1034,1996,25,F,Neva End,Future,Rap,0,2012,0,0,0,,,-16
+1034,1996,25,F,Hot,Young Thug featuring Gunna,Rap,0,2019,0,1,0,,,-23
+1034,1996,25,F,I Found You,benny blanco with Calvin Harris,Dance/Electronic,0,2018,0,1,0,,,-22
+1034,1996,25,F,In Your Eyes,Robin Schulz featuring Alida,Dance/Electronic,0,2020,0,0,0,,,-24
+1034,1996,25,F,Call You Mine,The Chainsmokers & Bebe Rexha,Dance/Electronic,0,2019,0,1,0,,,-23
+1034,1996,25,F,Dancing On The Ceiling,Lionel Richie,Pop,1,1986,0,0,0,,,10
+1034,1996,25,F,Crazy For You,Madonna,Pop,1,2009,0,0,0,,,-13
+1034,1996,25,F,Making Love,Roberta Flack,Pop,1,1982,0,0,0,,,14
+1034,1996,25,F,23,"Mike WiLL Made-It, Miley Cyrus, Wiz Khalifa, Juicy J",Rap,1,2013,1,,1,1,17,0
+1034,1996,25,F,"Bitch, Don't Kill My Vibe",Kendrick Lamar,Rap,1,2012,1,,1,1,19,3
+1034,1996,25,F,Bandz A Make Her Dance,"Juicy J, Lil Wayne, 2 Chainz",Rap,1,2013,1,,0,,,-17
+1034,1996,25,F,Gangnam Style,PSY,Dance/Electronic,1,2012,1,,0,,,-16
+1034,1996,25,F,Levitate,Hadouken!,Dance/Electronic,1,2013,0,0,0,,,-17
+1034,1996,25,F,Wake Me Up,Avicii,Dance/Electronic,1,2013,1,,1,1,25,8
+1009,2001,20,F,Unforgettable,Godsmack,Rock,0,2018,0,0,1,1,8,-9
+1009,2001,20,F,Follow Me Down,The Pretty Reckless,Rock,0,2014,0,0,0,,,-13
+1009,2001,20,F,The Sky Is A Neighborhood,Foo Fighters,Rock,0,2017,0,0,1,1,9,-7
+1009,2001,20,F,Sweet Annie,Zac Brown Band,Country,0,2012,1,,0,,,-11
+1009,2001,20,F,He's Mine,Rodney Atkins,Country,0,2011,1,,0,,,-10
+1009,2001,20,F,Bait A Hook,Justin Moore,Country,0,2011,1,,0,,,-10
+1009,2001,20,F,You're Somebody Else,flora cash,Alternative,0,2018,1,,0,,,-17
+1009,2001,20,F,Sweater Weather,The Neighbourhood,Alternative,0,2013,1,,0,,,-12
+1009,2001,20,F,Take Me to Church,Hozier,Alternative,0,2014,1,,0,,,-13
+1009,2001,20,F,Ten Thousand Fists,Disturbed,Rock,1,2005,0,0,0,,,-4
+1009,2001,20,F,Coming Undone,Korn,Rock,1,2005,0,0,0,,,-4
+1009,2001,20,F,Twisted Transistor,Korn,rock,1,2005,0,1,0,,,-4
+1009,2001,20,F,Country Girls,John Schneider,Country,1,1984,1,,0,,,17
+1009,2001,20,F,I Loved Her First,Heartland,Country,1,2006,1,,1,0,10,5
+1009,2001,20,F,Move,Luke Bryan,Country,1,2015,1,,0,,,-14
+1009,2001,20,F,Dani California,Red Hot Chili Peppers,Alternative,1,2006,1,,0,,,-5
+1009,2001,20,F,Come a Little Closer,Cage The Elephant,Alternative,1,2013,1,,0,,,-12
+1009,2001,20,F,Animal I Have Become,Three Days Grace,Alternative,1,2006,1,,0,,,-5
+1010,2001,20,F,Ritual,"Tiesto, Jonas Blue, Rita Ora",Dance/Electronic,0,2019,0,0,0,,,-18
+1010,2001,20,F,Fall Down,will.i.am & Miley Cyrus,Dance/Electronic,0,2013,0,1,1,1,16,4
+1010,2001,20,F,Gecko (Overdrive),Oliver Heldens & Becky Hill,Dance/Electronic,0,2014,1,,0,,,-13
+1010,2001,20,F,I Wish Grandpas Never Died,Riley Green,Country,0,2019,0,0,0,,,-18
+1010,2001,20,F,All To Myself,Dan + Shay,Country,0,2018,1,,0,,,-17
+1010,2001,20,F,Don't It,Billy Currington,Country,0,2015,0,0,0,,,-14
+1010,2001,20,F,Nightlight,Silversun Pickups,Alternative,0,2015,0,0,0,,,-14
+1010,2001,20,F,Can I Call You Tonight?,Dayglow,Alternative,0,2019,1,,1,1,20,2
+1010,2001,20,F,Look Around,Red Hot Chili Peppers,Alternative,0,2011,0,1,0,,,-10
+1010,2001,20,F,Rockabye,"Clean Bandit, Sean Paul, & Anne-Marie",Dance/Electronic,1,2016,1,,1,1,16,1
+1010,2001,20,F,Until You Were Gone,"Chainsmokers, Tritonal, & Emily Warren",Dance/Electronic,1,2015,1,,0,,,-14
+1010,2001,20,F,Talk,DJ Snake & George Maple,Dance/Electronic,1,2016,1,,1,0,,-15
+1010,2001,20,F,Country Man,Luke Bryan,Country,1,2007,0,0,0,,,-6
+1010,2001,20,F,Slow Me Down,Sara Evans,Country,1,2014,0,0,0,,,-13
+1010,2001,20,F,Tear Stained Letter,Jo-El Sonnier,Country,1,1996,0,1,1,1,14,19
+1010,2001,20,F,Tear You Apart,She Wants Revenge,Alternative,1,2005,0,0,0,,,-4
+1010,2001,20,F,"Steady, As She Goes",The Raconteurs,Alternative,1,2006,0,0,0,,,-5
+1010,2001,20,F,Miss Murder,AFI,Alternative,1,2006,0,0,0,,,-5
+1011,2000,21,M,Bored To Death,blink-182,Alternative,0,2016,1,,1,1,12,-4
+1011,2000,21,M,The Royal We,Silversun Pickups,Alternative,0,2010,1,,1,1,12,2
+1011,2000,21,M,death bed,Powfu & beabadoobee,Alternative,0,2020,0,1,0,,,-20
+1011,2000,21,M,Crooked Smile,J. Cole & TLC,Rap,0,2013,1,,1,1,16,3
+1011,2000,21,M,pick up the phone,Young Thug & Travis Scott,Rap,0,2016,1,,1,1,16,0
+1011,2000,21,M,OOOUUU,Young M.A.,Rap,0,2017,1,,1,1,17,0
+1011,2000,21,M,Pneuma,TOOL,Rock,0,2019,1,,1,1,11,-8
+1011,2000,21,M,Dance Macabre,Ghost,Rock,0,2018,0,0,0,,,-18
+1011,2000,21,M,I Miss The Misery,Halestorm,Rock,0,2012,0,0,0,,,-12
+1011,2000,21,M,Wasteland,10 Years,Alternative,1,2005,1,,0,,,-5
+1011,2000,21,M,Pompeii,Bastille,Alternative,1,2013,1,,1,1,14,1
+1011,2000,21,M,Dangerous,Big Data featuring Joywave,Alternative,1,2013,1,,1,1,17,4
+1011,2000,21,M,Poetic Justice,Kendrick Lamar & Drake,Rap,1,2012,1,,1,1,16,4
+1011,2000,21,M,Don't Stop the Party,Pitbull featuring Tjr,Rap,1,2012,1,,0,,,-12
+1011,2000,21,M,Battle Scars,Lupe Fiasco & Guy Sebastian,Rap,1,2012,1,,1,1,14,2
+1011,2000,21,M,Woman,Wolfmother,Rock,1,2006,1,,0,,,-6
+1011,2000,21,M,When It's Love,Van Halen,Rock,1,1988,1,,1,1,10,22
+1011,2000,21,M,The Sound of Winter,Bush,Rock,1,2011,1,,1,1,12,1
+1030,2002,19,M,Downtown,"Macklemore, Ryan Lewis, Grandmaster Melle Mel, Grandmaster Caz, Kool Moe Dee & Eric Nally",Rap,0,2016,0,0,0,,,-14
+1030,2002,19,M,Lemonade,"Internet Money, Gunna, Don Toliver, & NAV",Rap,0,2020,1,,1,1,17,-1
+1030,2002,19,M,F**kin' Problems,"A$AP Rocky, Drake, 2 Chainz, Kendrick Lamar",Rap,0,2013,0,0,0,,,-11
+1030,2002,19,M,Go Get It,Mary Mary,R&B and Hip-Hop,0,2000,0,0,1,1,18,20
+1030,2002,19,M,Lifestyle,"Rich Gang, Young Thug, & Rich Homie Quan",R&B and Hip-Hop,0,2014,0,0,0,,,-12
+1030,2002,19,M,For Free,DJ Khaled & Drake,R&B and Hip-Hop,0,2016,0,0,0,,,-14
+1030,2002,19,M,Psycho,Post Malone featuring Ty Dolla $ign,Rap,0,2018,1,,1,1,19,3
+1030,2002,19,M,Beware,"Big Sean, Lil Wayne, & Jhene Aiko",Rap,0,2013,0,0,0,,,-11
+1030,2002,19,M,pick up the phone,Young Thug & Travis Scott,Rap,0,2015,1,,1,1,17,4
+1030,2002,19,M,Rich As Fuck,Lil Wayne & 2 Chainz,Rap,1,2013,0,0,0,,,-11
+1030,2002,19,M,Don't Drop That Thun Thun,Finatticz,Rap,1,2012,1,,0,,,-10
+1030,2002,19,M,Power Trip,J. Cole featuring Miguel,Rap,1,2013,0,0,1,1,18,7
+1030,2002,19,M,This Old Heart of Mine,The Isley Brothers,R&B and Hip-Hop,1,1966,0,0,0,,,36
+1030,2002,19,M,WORKIN ME,Quavo,R&B and Hip-Hop,0,2018,0,0,1,1,19,3
+1030,2002,19,M,My Love,Mary J. Blige,R&B and Hip-Hop,1,1992,0,0,0,,,10
+1030,2002,19,M,R.I.P.,"Jeezy, 2 Chainz",Rap,1,2013,0,0,0,,,-11
+1030,2002,19,M,Red Nose,Sage The Gemini,Rap,0,2014,0,0,0,,,-12
+1030,2002,19,M,Battle Scars,Lupe Fiasco & Guy Sebastian,Rap,1,2012,0,1,0,,,-10
+1031,1979,42,F,Crazy,Gnarls Barkley,Alternative,0,2006,1,,1,1,27,0
+1031,1979,42,F,Lights & Sounds,Yellowcard,Alternative,0,2006,1,1,0,,,-27
+1031,1979,42,F,Dani California,Red Hot Chili Peppers,Alternative,0,2006,1,,1,1,20,-7
+1031,1979,42,F,Save Me,Shinedown,Rock,0,2005,0,0,0,,,-26
+1031,1979,42,F,Crazy Bitch,Buckberry,Rock,0,2005,0,0,0,,,-26
+1031,1979,42,F,Through Glass,Stone Sour,Rock,0,2006,1,,0,,,-27
+1031,1979,42,F,My Boo,Ghost Town DJs,R&B and Hip-Hop,0,1996,1,,1,1,20,3
+1031,1979,42,F,Flap Your Wings,Nelly,R&B and Hip-Hop,0,2004,0,1,1,1,23,-2
+1031,1979,42,F,Warm It Up,Kris Kross,R&B and Hip-Hop,0,1992,1,,1,1,14,1
+1031,1979,42,F,I Dare You,Shinedown,Alternative,1,2005,0,0,0,,,-26
+1031,1979,42,F,The Diary Of Jane,Breaking Benjamin,Alternative,1,2011,0,1,1,1,19,-13
+1031,1979,42,F,Satellite,Rise Against,Alternative,1,2011,1,,1,1,18,-14
+1031,1979,42,F,Unsainted,Slipknot,Rock,1,2019,0,0,0,,,-40
+1031,1979,42,F,Joyride (Omen),Chevelle,Rock,1,2016,0,0,1,1,23,-14
+1031,1979,42,F,Until It's Gone,Linkin Park  ,Rock,1,2014,0,1,1,1,22,-13
+1031,1979,42,F,Wishing Well,Juice WRLD,R&B and Hip-Hop,1,2020,0,0,0,,,-41
+1031,1979,42,F,I Got The Keys,DJ Khaled featuring JAY-Z & Future,R&B and Hip-Hop,1,2016,0,0,0,,,-37
+1031,1979,42,F,1st Time,"Yung Joc, Marques Houston",R&B and Hip-Hop,1,2006,0,0,0,,,-27
+1035,1988,33,M,No Way Back,Foo Fighters,Rock,0,2005,1,,1,1,18,1
+1035,1988,33,M,DOA,Foo Fighters,Rock,0,2005,0,0,0,,,-17
+1035,1988,33,M,...To Be Loved,Papa Roach,Rock,0,2006,0,0,0,,,-18
+1035,1988,33,M,Believe,The Bravery,Alternative,0,2007,0,0,0,,,-19
+1035,1988,33,M,"""45""",The Gaslight Anthem,Alternative,0,2012,0,1,0,,,-24
+1035,1988,33,M,Soul Meets Body,Death Cab for Cutie,Alternative,0,2005,0,0,0,,,-17
+1035,1988,33,M,Absolute Zero,Stone Sour,Rock,0,2012,0,0,0,,,-24
+1035,1988,33,M,Original Fire,Audioslave,Rock,0,2006,0,0,0,,,-18
+1035,1988,33,M,Wasteland,10 Years,Rock,0,2005,0,1,1,0,,-17
+1035,1988,33,M,In The Dark,3 Doors Down,Rock,1,2016,0,0,0,,,-28
+1035,1988,33,M,Figure It Out,Royal Blood,Rock,1,2014,0,0,0,,,-26
+1035,1988,33,M,Fallen Angel,Three Days Grace,Rock,1,2015,0,0,0,,,-27
+1035,1988,33,M,My Own Soul's Warning,The Killers,Alternative,1,2020,0,0,0,,,-32
+1035,1988,33,M,Gold Rush,Death Cab for Cutie,Alternative,1,2018,0,0,0,,,-30
+1035,1988,33,M,Woman Woman,AWOLNATION,Alternative,1,2015,0,0,0,,,-27
+1035,1988,33,M,When Legends Die,Godsmack,Rock,1,2018,0,1,1,1,31,1
+1035,1988,33,M,Infra-Red,Three Days Grace,Rock,1,2018,0,1,0,,,-30
+1035,1988,33,M,16,Highly Suspect,Rock,1,2019,0,0,0,,,-31
+1032,1987,34,M,Over My Head (Cable Car),The Fray,Pop,0,2005,0,1,0,,,-18
+1032,1987,34,M,Anyway,Martina McBride,Pop,0,2007,0,0,0,,,-20
+1032,1987,34,M,Home,Michael Buble,Pop,0,2005,1,,1,1,23,5
+1032,1987,34,M,Fully Alive,Flyleaf,Rock,0,2006,0,0,0,,,-19
+1032,1987,34,M,Rockstar,Nickelback,Rock,0,2005,0,1,0,,,-18
+1032,1987,34,M,Speak,Godsmack,Rock,0,2007,0,1,1,1,15,-5
+1032,1987,34,M,World Wide Suicide,Pearl Jam,Alternative,0,2006,1,,0,,,-19
+1032,1987,34,M,The Heinrich Maneuver,Interpol,Alternative,0,2007,0,0,0,,,-20
+1032,1987,34,M,Not Again,Staind,Alternative,0,2011,0,0,0,,,-24
+1032,1987,34,M,Be Alright,Dean Lewis,Pop,1,2018,0,1,1,1,24,-7
+1032,1987,34,M,See You Again,Wiz Khalifa featuring Charlie Puth,Pop,1,2015,1,,1,1,29,1
+1032,1987,34,M,Sucker,Jonas Brothers,Pop,1,2019,1,,1,1,29,-3
+1032,1987,34,M,Asking For It,Shinedown,Rock,1,2015,0,0,0,,,-28
+1032,1987,34,M,When The Seasons Change,Five Finger Death Punch,Rock,1,2018,0,1,1,1,16,-15
+1032,1987,34,M,These Days,Highly Suspect,Rock,1,2019,0,0,0,,,-32
+1032,1987,34,M,Trying To Be Cool,Phoenix,Alternative,1,2013,0,0,0,,,-26
+1032,1987,34,M,Gone,JR JR,Alternative,1,2015,0,1,0,,,-28
+1032,1987,34,M,Sit Next To Me,Foster The People,Alternative,1,2017,1,,1,1,19,-11
+1033,2003,18,F,"10,000 Hours",Dan + Shay with Justin Bieber,Pop,0,2019,1,,1,1,15,-1
+1033,2003,18,F,Cake By The Ocean,DNCE,Pop,0,2016,1,,1,1,16,3
+1033,2003,18,F,Shape Of You,Ed Sheeran,Pop,0,2017,1,,1,1,16,2
+1033,2003,18,F,Same Love,Macklemore & Ryan Lewis featuring Mary Lewis,Rap,0,2012,1,,1,1,17,8
+1033,2003,18,F,Used To This,Future & Drake,Rap,0,2016,1,,1,1,16,3
+1033,2003,18,F,Outside Today,Youngboy Never Broke Again,Rap,0,2018,1,,0,,,-15
+1033,2003,18,F,Roll In Peace,Kodak Black & XXXTENTACION,R&B and Hip-Hop,0,2017,1,,1,1,17,3
+1033,2003,18,F,Finesse,Bruno Mars & Cardi B,R&B and Hip-Hop,0,2017,1,,1,1,16,2
+1033,2003,18,F,Guap,Big Sean ,R&B and Hip-Hop,0,2013,1,,0,,,-10
+1033,2003,18,F,This Christmas,Train,Pop,0,2017,1,,0,,,-14
+1033,2003,18,F,Photograph,Nickelback,Pop,1,2005,1,,1,1,16,14
+1033,2003,18,F,Ever The Same,Rob Thomas,Pop,1,2005,1,,0,,,-2
+1033,2003,18,F,F**kin' Problems,"A$AP Rocky, Drake, 2 Chainz, Kendrick Lamar",Rap,1,2013,1,,1,1,17,7
+1033,2003,18,F,Type of Way,Rich Homie Quan,Rap,1,2013,0,1,0,,,-10
+1033,2003,18,F,Tom Ford,JAY-Z,Rap,1,2013,1,,0,,,-10
+1033,2003,18,F,I Don't Wanna Know,"Mario Winans, Enya, Diddy",R&B and Hip-Hop,0,2016,1,,1,1,16,3
+1033,2003,18,F,Betcha'll Never Find,Chantay Savage,R&B and Hip-Hop,1,1993,1,,0,,,10
+1033,2003,18,F,We Still in This Bitch,"B.o.B., T.I., Juicy J",R&B and Hip-Hop,1,2013,1,,0,,,-10
+1045,1988,33,M,Over My Head (Cable Car),The Fray,Pop,0,2005,0,1,1,1,21,4
+1045,1988,33,M,So Long Self,MercyMe,Pop,0,2006,0,,1,0,17,-1
+1045,1988,33,M,Cups,Anna Kendrick,Pop,0,2015,1,,1,1,22,-5
+1045,1988,33,M,Try Sleeping With a Broken Heart,Alicia Keys,R&B and Hip-Hop,0,2009,0,0,1,1,25,4
+1045,1988,33,M,Sunshine,Coko,R&B and Hip-Hop,0,1999,1,,1,1,13,2
+1045,1988,33,M,A Bay Bay,Hurricane Chris,R&B and Hip-Hop,0,2007,1,,1,1,17,-2
+1045,1988,33,M,She Wolf,David Guetta & Sia,Dance/Electronic,0,2011,1,,1,1,20,-3
+1045,1988,33,M,Greyhound,Swedish House Mafia,Dance/Electronic,0,2012,0,0,0,,,-24
+1045,1988,33,M,Bang Bang,will.i.am & Miley Cyrus,Dance/Electronic,0,2013,1,,1,1,24,-1
+1045,1988,33,M,If The World Was Ending,"JP Saxe, Julia Michaels",Pop,1,2019,1,,1,0,,-31
+1045,1988,33,M,Dancing On My Own,Calum Scott,Pop,1,2018,1,,1,1,20,-10
+1045,1988,33,M,Let Her Go,Passenger,Pop,1,2013,0,1,0,,,-25
+1045,1988,33,M,Hot Boy,Bobby Shmurda,R&B and Hip-Hop,1,2014,1,,1,1,25,-1
+1045,1988,33,M,24K Magic,Bruno Mars ,R&B and Hip-Hop,1,2016,1,,1,1,29,1
+1045,1988,33,M,No Smoke,Youngboy Never Broke Again,R&B and Hip-Hop,1,2017,0,0,0,,,-29
+1045,1988,33,M,Love No More,"Loud Luxery, anders",Dance/Electronic,1,2018,0,0,0,,,-30
+1045,1988,33,M,Drown,"Martin Garrix, Clinton Kane",Dance/Electronic,1,2020,0,1,1,1,16,-16
+1045,1988,33,M,Love On Me,"Galantis, Hook N Sling",Dance/Electronic,1,2016,0,0,0,,,-28
+1029,2003,18,F,Tattoo,Hunter Hayes,Country,0,2014,1,,1,1,13,2
+1029,2003,18,F,Anywhere With You,Jake Owen,Country,1,2011,1,,1,1,14,6
+1029,2003,18,F,How Not To,Dan + Shay,Country,0,2016,0,1,1,1,14,1
+1029,2003,18,F,Novacaine,10 Years,Rock,0,2017,1,,0,,,-14
+1029,2003,18,F,The Vengeful One,Disturbed,Rock,0,2015,0,0,1,1,8,-4
+1029,2003,18,F,When The Curtain Falls,Greta Van Fleet,Rock,0,2018,0,0,0,,,-15
+1029,2003,18,F,Hold Back The River,James Bay,Alternative,0,2014,0,1,0,,,-11
+1029,2003,18,F,All We Ever Knew,The Head And The Heart,Alternative,0,2016,1,,1,1,12,-1
+1029,2003,18,F,Say Amen,Panic! At The Disco,Alternative,0,2018,1,,1,1,16,1
+1029,2003,18,F,When I Get Where I'm Going,"Brad Paisley, Dolly Parton",Country,1,2005,1,,1,1,16,14
+1029,2003,18,F,The Closer You Get,Alabama,Country,1,1983,0,1,0,,,20
+1029,2003,18,F,The Hole,Randy Travis,Country,1,1998,0,1,1,1,12,17
+1029,2003,18,F,Shine Down,Godsmack,Rock,1,2006,1,,1,0,,-3
+1029,2003,18,F,Pretending,Eric Clapton,Rock,1,1989,0,0,0,,,14
+1029,2003,18,F,Coming Undone,Korn,Rock,1,2005,1,,1,1,14,12
+1029,2003,18,F,The Diary Of Jane,Breaking Benjamin,Alternative,1,2011,1,,1,1,15,7
+1029,2003,18,F,Radioactive,Imagine Dragons,Alternative,1,2012,1,,1,1,17,8
+1029,2003,18,F,Desire,U2,Alternative,1,1988,1,,0,,,15
+1016,2000,21,M,This Is Real,"Jax Jones, Ella Henderson",Dance/Electronic,0,2019,0,0,0,,,-19
+1016,2000,21,M,There For You,"Martin Garrix, Troye Sivan",Dance/Electronic,0,2017,1,,1,1,16,-1
+1016,2000,21,M,Rockabye,"Clean Bandit, Sean Paul, & Anne-Marie",Dance/Electronic,0,2016,1,,0,,,-16
+1016,2000,21,M,I Miss You,"Clean Bandit, Julia Michaels",Dance/Electronic,0,2018,0,0,0,,,-18
+1016,2000,21,M,Sweet Escape,"Alesso, Sirena",Dance/Electronic,0,2015,0,1,1,1,15,0
+1016,2000,21,M,Waves,Mr. Probs,Dance/Electronic,0,2013,1,,0,,,-13
+1016,2000,21,M,Ric Flair Drip,Offset & Metro Boomin,Rap,0,2017,1,,1,1,17,0
+1016,2000,21,M,I Cry,Flo Rida,Rap,0,2012,1,,1,1,8,-4
+1016,2000,21,M,Hotline Bling,Drake,Rap,0,2016,1,,1,1,14,-2
+1016,2000,21,M,Applause,Lady Gaga,Dance/Electronic,0,2013,1,,0,,,-13
+1016,2000,21,M,Get Low,Dillion Francis & DJ Snake,Dance/Electronic,0,2014,1,,1,1,17,3
+1016,2000,21,M,Devil,"Cash Cash, Busta Rhymes, B.o.B, Neon Hitch",Dance/Electronic,0,2016,0,0,1,1,13,-3
+1016,2000,21,M,Take Me Home,Cash Cash featuring Bebe Rexha,Dance/Electronic,0,2016,1,,0,,,-16
+1016,2000,21,M,Apollo,Hardwell & Amba Shepherd,Dance/Electronic,0,2013,0,1,0,,,-13
+1016,2000,21,M,Animals,Martin Garrix,Dance/Electronic,0,2014,1,,1,1,16,2
+1016,2000,21,M,Nasty Freestyle,T-Wayne,Rap,0,2015,1,,0,,,-15
+1016,2000,21,M,23,"Mike WiLL Made-It, Miley Cyrus, Wiz Khalifa, Juicy J",Rap,0,2013,1,,0,,,-13
+1016,2000,21,M,Rich As Fuck,Lil Wayne & 2 Chainz,Rap,0,2013,1,,1,1,12,-1
+1002,1999,22,F,T-Shirt,Thomas Rhett,Country,0,2015,1,,0,,,-16
+1002,1999,22,F,Your Side of the Bed,Little Big Town,Country,0,2013,1,,1,0,,-14
+1002,1999,22,F,Love Wins,Carrie Underwood,Country,0,2018,0,0,0,,,-19
+1002,1999,22,F,I Don't Care,Ed Sheeran with Justin Bieber,Pop,0,2019,1,,1,1,13,-7
+1002,1999,22,F,Sledgehammer,Rihanna,Pop,0,2016,0,1,0,,,-17
+1002,1999,22,F,Ho Hey,The Lumineers,Pop,0,2012,1,,0,,,-13
+1002,1999,22,F,Beware,"Big Sean, Lil Wayne, & Jhene Aiko",R&B and Hip-Hop,0,2013,0,1,0,,,-14
+1002,1999,22,F,Not Anymore,LeToya,R&B and Hip-Hop,0,2009,0,0,0,,,-10
+1002,1999,22,F,Grammys,Drake & Future,R&B and Hip-Hop,0,2016,0,1,1,1,16,-1
+1002,1999,22,F,Meant to Be,Sammy Kershaw,Country,1,2004,0,0,0,,,-5
+1002,1999,22,F,I Love You,Martina McBride,Country,1,1999,0,0,0,,,0
+1002,1999,22,F,If You Ever Stop Loving Me,Montgomery Gentry,Country,1,2004,0,1,1,1,14,9
+1002,1999,22,F,A Little Bit More,Dr. Hook,Pop,1,1995,0,0,0,,,4
+1002,1999,22,F,Bad Day,Daniel Powter,Pop,1,2005,1,,0,,,-6
+1002,1999,22,F,You Belong With Me,Taylor Swift,Pop,1,2008,1,,1,1,9,0
+1002,1999,22,F,Whip My Hair,Willow,R&B and Hip-Hop,1,2010,1,,1,1,12,1
+1002,1999,22,F,You Know That I Love You,Donell Jones,R&B and Hip-Hop,1,2002,0,0,0,,,-3
+1002,1999,22,F,Doo Wop,Ms. Lauryn Hill,R&B and Hip-Hop,1,1998,0,0,0,,,1
+1041,1999,22,M,CASTLE OF GLASS,Linkin Park,Alternative,0,2012,1,,0,,,-13
+1041,1999,22,M,The Mother We Share,CHVRCHES,Alternative,0,2013,1,,0,,,-14
+1041,1999,22,M,Can I Call You Tonight?,Dayglow,Alternative,0,2019,1,,0,,,-20
+1041,1999,22,M,Started From The Bottom,Drake,Rap,0,2013,1,,1,1,14,0
+1041,1999,22,M,Him & I,G-Eazy with Halsey,Rap,0,2017,1,,1,1,16,-2
+1041,1999,22,M,I Fall Apart,Post Malone,Rap,0,2016,1,,1,1,17,0
+1041,1999,22,M,Remember When,Bad Wolves,Rock,0,2018,1,,0,,,-19
+1041,1999,22,M,World So Cold,Three Days Grace,Rock,0,2009,0,0,0,,,-10
+1041,1999,22,M,Your Decision,Alice in Chains,Rock,0,2009,1,,0,,,-10
+1041,1999,22,M,There's No Going Back,Sick Puppies,Alternative,0,2013,1,,0,,,-14
+1041,1999,22,M,The Bird And The Worm,The Used,Alternative,1,2007,1,,1,1,16,8
+1041,1999,22,M,Bat Country,Avenged Sevenfold,Alternative,1,2005,1,,0,,,-6
+1041,1999,22,M,Battle Scars,Lupe Fiaso & Guy Sebastian,Rap,0,2012,1,,0,,,-13
+1041,1999,22,M,Holy Grail,JAY-Z & Justin Timberlake,Rap,0,2013,1,,1,1,15,1
+1041,1999,22,M,Tom Ford,JAY-Z,Rap,0,2013,1,,0,,,-14
+1041,1999,22,M,Out Of Exile,Audioslave,Rock,1,2005,1,,0,,,-6
+1041,1999,22,M,Love Walks In,Van Halen,Rock,1,1986,1,,1,1,16,29
+1041,1999,22,M,Been Away Too Long,Soundgarden,Rock,1,2012,1,,0,,,-13
+1023,2001,20,F,In Cold Blood,alt-J,Alternative,0,2017,0,0,0,,,-16
+1023,2001,20,F,Whirring,The Joy Formidable,Alternative,0,2011,0,0,0,,,-10
+1023,2001,20,F,King of the World,Weezer,Alternative,0,2016,0,1,1,1,18,3
+1023,2001,20,F,Treat You Better,Shawn Mendes,Pop,0,2017,1,,1,1,16,0
+1023,2001,20,F,Adore You,Harry Styles,Pop,0,2019,1,,1,1,18,0
+1023,2001,20,F,Just Like Fire,P!nk,Pop,0,2016,1,,1,1,16,1
+1023,2001,20,F,Got My Country On,Chris Cagle,Country,0,2012,0,0,0,,,-11
+1023,2001,20,F,Love Wins,Carrie Underwood,Country,0,2018,0,1,1,1,12,-5
+1023,2001,20,F,Anywhere With You,Jake Owen,Country,0,2011,0,0,0,,,-10
+1023,2001,20,F,Miss Murder,AFI,Alternative,1,2006,0,0,0,,,-5
+1023,2001,20,F,Animal I Have Become,Three Days Grace,Alternative,1,2006,0,0,0,,,-5
+1023,2001,20,F,Radioactive,Kings of Leon,Alternative,1,2010,0,0,0,,,-9
+1023,2001,20,F,Airport Love Theme,Paramount Orchestra,Pop,1,1970,0,0,0,,,31
+1023,2001,20,F,Unwritten,Natasha Bedingfield,Pop,1,2004,1,,1,1,10,7
+1023,2001,20,F,Words Get In The Way,Miami Sound Machine,Pop,1,1985,0,1,0,,,16
+1023,2001,20,F,Bluest Heartache Of The Year,Kenny Dale,Country,1,2008,0,1,0,,,-7
+1023,2001,20,F,Unanswered Prayers,Garth Brooks,Country,1,1990,0,0,0,,,11
+1023,2001,20,F,One Honest Heart,Reba McIntire,Country,1,1998,0,0,0,,,3
+1019,2000,21,F,Loving You Is Easy,Sarah McLachlan,Pop,0,2010,0,0,0,,,-10
+1019,2000,21,F,Just A Kiss,Lady Antebellum,Pop,0,2011,1,,1,1,14,3
+1019,2000,21,F,One More Night,Maroon 5,Pop,0,2012,1,,1,1,16,4
+1019,2000,21,F,One Thing Right,Marshmellow featuring Kane Brown,Country,0,2019,1,,0,,,-19
+1019,2000,21,F,When I See This Bar,Kenny Chesney,Country,0,2013,0,1,0,,,-13
+1019,2000,21,F,Little Bit Of Everything,Keith Urban,Country,0,2013,0,0,0,,,-13
+1019,2000,21,F,Hold Me,"Ono, Dave Aude",Dance/Electronic,0,2013,0,0,0,,,-13
+1019,2000,21,F,Just Girly Things,Dawin,Dance/Electronic,0,2015,0,1,1,1,18,3
+1019,2000,21,F,Finest Hour,"Cash Cash, ABIR",Dance/Electronic,0,2018,1,,1,1,17,-1
+1019,2000,21,F,Locked Away,R. City featuring Adam Levine,Pop,0,2015,1,,0,,,-15
+1019,2000,21,F,I've Never Been To Me,Charlene,Pop,1,1982,0,0,0,,,18
+1019,2000,21,F,Out Of Love,Alessia Cara,Pop,0,2018,1,,1,1,16,-2
+1019,2000,21,F,You Won't Ever Be Lonely,Andy Griggs,Country,1,1999,0,0,0,,,1
+1019,2000,21,F,Honey Come Back,Glen Campbell,Country,1,1970,0,0,0,,,30
+1019,2000,21,F,Coward Of The County,Kenny Rogers,Country,1,1979,0,1,1,1,16,37
+1019,2000,21,F,SummerThing!,"Afrojack, Mike Taylor",Dance/Electronic,0,2015,0,0,0,,,-15
+1019,2000,21,F,Bonbon,Era Istrefi,Dance/Electronic,0,2016,0,0,0,,,-16
+1019,2000,21,F,Atmosphere,Kaskade,Dance/Electronic,0,2013,0,1,0,,,-13
+1047,1999,22,F,Hello,Adele,Pop,0,2015,1,,1,1,13,-3
+1047,1999,22,F,Believer,Imagine Dragons,Pop,0,2017,1,,0,,,-18
+1047,1999,22,F,Slow Hands,Niall Horan,Pop,0,2017,1,,1,1,16,-2
+1047,1999,22,F,On The Ocean,K'Jon,R&B and Hip-Hop,0,2009,0,0,0,,,-10
+1047,1999,22,F,Take Care,Drake with Rihanna,R&B and Hip-Hop,0,2011,0,1,1,1,18,6
+1047,1999,22,F,There Goes My Baby,Charlie Wilson,R&B and Hip-Hop,1,2008,0,0,0,,,-9
+1047,1999,22,F,TRIALS,STARSET,Rock,0,2019,0,1,0,,,-20
+1047,1999,22,F,30,Badflower,Rock,0,2020,0,0,1,1,21,0
+1047,1999,22,F,Meadow,Stone Temple Pilots,Rock,0,2018,0,0,0,,,-19
+1047,1999,22,F,Suspicions,Eddie Rabbitt,Pop,1,1979,0,0,0,,,20
+1047,1999,22,F,Crazy In Love,Nicol Sponberg,Pop,1,2007,1,,1,1,10,2
+1047,1999,22,F,The Entertainer,Marvin Hamlisch,Pop,1,1974,0,1,1,1,4,29
+1047,1999,22,F,Any Other Night,Sharissa Dawes,R&B and Hip-Hop,1,2002,0,1,1,1,17,14
+1047,1999,22,F,"Girls, Girls, Girls",JAY-Z,R&B and Hip-Hop,1,2001,0,0,0,,,-2
+1047,1999,22,F,Hollaback Girl,Gwen Stefani,R&B and Hip-Hop,1,2004,1,,1,1,15,10
+1047,1999,22,F,Burn It To The Ground,Nickelback,Rock,1,2008,0,1,1,1,21,12
+1047,1999,22,F,Fallen Angel,Three Days Grace,Rock,0,2015,0,0,0,,,-16
+1047,1999,22,F,Save Me,Shinedown,Rock,1,2005,0,1,0,,,-6
+1021,2002,19,F,Wake Me Up,Avicii,Dance/Electronic,0,2013,1,,1,1,18,7
+1021,2002,19,F,Faded,Zhu,Dance/Electronic,0,2014,0,0,0,,,-12
+1021,2002,19,F,No Promises,Cheat Codes featuring Demi Lovato,Dance/Electronic,0,2017,0,1,0,,,-15
+1021,2002,19,F,Happier,Marshmellow & Bastille,Pop,0,2018,1,,1,0,,-16
+1021,2002,19,F,Try,Colbie Caillat,Pop,0,2014,0,0,0,,,-12
+1021,2002,19,F,Too Good At Goodbyes,Sam Smith,Pop,0,2017,1,,0,,,-15
+1021,2002,19,F,Party Monster,The Weeknd,R&B and Hip-Hop,0,2016,0,0,0,,,-14
+1021,2002,19,F,In My Feelings,Drake,R&B and Hip-Hop,0,2018,1,,1,1,16,0
+1021,2002,19,F,Sky Walker,Miguel featuring Travis Scott,R&B and Hip-Hop,0,2017,0,0,0,,,-15
+1021,2002,19,F,Open Wide,Calvin Harris featuring Big Sean,Dance/Electronic,1,2014,0,0,1,1,14,2
+1021,2002,19,F,First Love,Lost Kinds & Sabrina Carpenter,Dance/Electronic,0,2017,0,0,1,1,14,-1
+1021,2002,19,F,I Wanna Know,Alesso with Nico & Vinz,Dance/Electronic,1,2016,0,0,0,,,-14
+1021,2002,19,F,How Long,Eagles,Pop,1,2007,0,0,1,1,19,14
+1021,2002,19,F,We've Saved The Best For Last,Kenny G,Pop,1,1988,0,0,0,,,14
+1021,2002,19,F,Put Your Records On,Corinne Bailey Rae,Pop,1,2006,0,1,1,1,18,14
+1021,2002,19,F,Ain't Nothin' Goin' On But The Rent,Gwen Guthrie,R&B and Hip-Hop,1,1986,0,0,0,,,16
+1021,2002,19,F,Wild Thing,Tone-Loc,R&B and Hip-Hop,1,1989,0,0,1,1,15,28
+1021,2002,19,F,All The Stars,Kendrick Lamar with SZA,R&B and Hip-Hop,0,2018,0,0,0,,,-16
+1015,1965,56,F,Headed For Heartbreak,Winger,Rock,0,1988,0,0,1,1,14,-9
+1015,1965,56,F,Forever Man,Eric Clapton,Rock,0,1985,1,,0,,,-20
+1015,1965,56,F,Stick Around,Julian Lennon,Rock,0,1986,0,0,0,,,-21
+1015,1965,56,F,You've Got Me To Hold On To,Tanya Tucker,Country,0,1978,0,0,1,1,12,-1
+1015,1965,56,F,I'll Never Stop Loving You,Gary Morris,Country,0,1985,0,0,0,,,-20
+1015,1965,56,F,Just Another Woman In Love,Anne Murray,Country,0,1994,0,1,1,1,15,-14
+1015,1965,56,F,Back On The Breadline,Hunters & Collectors,Alternative,0,1988,0,0,1,1,18,-5
+1015,1965,56,F,Pee-A-Boo,Siouxsie and the Banshees,Alternative,0,1988,1,,1,1,20,-3
+1015,1965,56,F,Metropolis,The Church,Alternative,0,1990,1,,1,1,24,-1
+1015,1965,56,F,What It Is,Jonathan Davis,Rock,1,2018,0,0,0,,,-53
+1015,1965,56,F,Animal I Have Become,Three Days Grace,Rock,1,2006,0,0,0,,,-41
+1015,1965,56,F,Highway,Bleeker,Rock,1,2016,0,1,1,1,47,-4
+1015,1965,56,F,Somebody's Daughter,Tenille Town,Country,1,2020,0,1,1,1,50,-5
+1015,1965,56,F,Easy,Sheryl Crow,Country,1,2013,0,0,1,1,42,-6
+1015,1965,56,F,Modern Day Bonnie and Clyde,Travis Tritt,Country,1,2000,0,0,1,1,44,9
+1015,1965,56,F,Tear You Apart,She Wants Revenge,Alternative,1,2005,0,0,1,0,,-40
+1015,1965,56,F,Tighten Up,The Black Keys,Alternative,1,2010,1,,1,1,50,5
+1015,1965,56,F,DARE,Gorillaz,Alternative,1,2005,0,0,0,,,-40
+1048,1981,40,M,Cold (But I'm Still Here),Evans Blue,Rock,0,2006,0,0,0,,,-25
+1048,1981,40,M,World Wide Suicide,Pearl Jam,Rock,0,2006,1,,1,1,16,-9
+1048,1981,40,M,The Pot,TOOL,Rock,0,2006,1,,1,1,39,14
+1048,1981,40,M,Poetic Justice,Kendrick Lamar & Drake,Rap,0,2012,1,,0,,,-31
+1048,1981,40,M,Crooked Smile,J. Cole featuring TLC,Rap,1,2013,0,1,1,1,13,-19
+1048,1981,40,M,Pop That,"French Montana, Rick Ross, Drake, Lil Wayne",Rap,1,2013,1,,1,1,25,-7
+1048,1981,40,M,I Just Want To Dance With YOu,George Strait,Country,0,1998,1,,1,1,16,-1
+1048,1981,40,M,Gonna Get A Life,Mark Chesnutt,Country,0,1994,0,0,0,,,-13
+1048,1981,40,M,Wide Open Spaces,Dixie Chicks,Country,0,1998,1,,1,0,,-17
+1048,1981,40,M,Living In A Dream,Finger Eleven,Rock,1,2010,0,0,0,,,-29
+1048,1981,40,M,Less Than,Nine Inch Nails,Rock,1,2017,0,0,1,1,21,-15
+1048,1981,40,M,Judas,Fozzy,Rock,1,2017,1,,1,1,38,2
+1048,1981,40,M,No Worries,Lil Wayne & Details,Rap,1,2013,0,1,1,1,35,3
+1048,1981,40,M,Caroline,Amine,Rap,1,2017,0,0,0,,,-36
+1048,1981,40,M,POPSTAR,DJ Khaled featuring Drake,Rap,1,2020,1,,1,0,,-39
+1048,1981,40,M,Hell On The Heart,Eric Church,Country,0,2009,0,0,0,,,-28
+1048,1981,40,M,Already Callin' You Mine,Parmalee,Country,1,2013,0,0,0,,,-32
+1048,1981,40,M,Someone I Used To Know,Zac Brown Band,Country,1,2019,0,0,1,1,30,-8
+1044,1997,24,M,Kiss Somebody,Morgan Evans,Country,0,2018,1,,1,1,23,2
+1044,1997,24,M,We Were,Keith Urban,Country,0,2019,1,,1,0,,-22
+1044,1997,24,M,I'm Still A Guy,Brad Paisley,Country,0,2007,1,,1,1,10,0
+1044,1997,24,M,Moment 4 Life,Nicki Minaj & Drake,R&B and Hip-Hop,0,2010,1,,0,,,-13
+1044,1997,24,M,Juice,Lizzo,R&B and Hip-Hop,0,2019,0,1,0,,,-22
+1044,1997,24,M,I Can Transform Ya,Chris Brown featuring Swizz Beats & Lil Wayne,R&B and Hip-Hop,0,2009,0,0,0,,,-12
+1044,1997,24,M,S.O.S. (Sawwed Off Shotgun),The Glorious Sons,Rock,0,2017,0,0,0,,,-20
+1044,1997,24,M,Pneuma,TOOL,Rock,0,2019,0,0,0,,,-22
+1044,1997,24,M,Father Of All...,Green Day,Rock,0,2020,0,0,0,,,-23
+1044,1997,24,M,Kiss Tomorrow Goodbye,Luke Bryan,Country,0,2011,1,,0,,,-14
+1044,1997,24,M,Watching You,Watching You,Country,1,2006,1,,1,0,,-9
+1044,1997,24,M,Chains,Patty Loveless,Country,1,1988,0,0,0,,,9
+1044,1997,24,M,Old School Lovin',Chante Moor,R&B and Hip-Hop,1,1994,0,0,0,,,3
+1044,1997,24,M,Not Anymore,LeToya,R&B and Hip-Hop,1,2009,0,0,0,,,-12
+1044,1997,24,M,Still Fly,Big Tymers,R&B and Hip-Hop,1,2002,0,0,0,,,-5
+1044,1997,24,M,Bat Country,Avenged Sevenfold,Rock,1,2005,0,0,0,,,-8
+1044,1997,24,M,Heroes,Shinedown,Rock,1,2005,0,0,0,,,-8
+1044,1997,24,M,Shine Down,Godsmack,Rock,1,2006,0,0,0,,,-9
+1028,2000,21,M,Selfish,PnB Rock,R&B and Hip-Hop,0,2017,0,1,0,,,-17
+1028,2000,21,M,Give It 2 U,Robin Thicke & Kendrick Lamar,R&B and Hip-Hop,0,2013,0,0,0,,,-13
+1028,2000,21,M,Crew Love,Drake & The Weeknd,R&B and Hip-Hop,0,2011,0,0,0,,,-11
+1028,2000,21,M,Let You Down,NF,Rap,0,2017,0,1,0,,,-17
+1028,2000,21,M,The Monster,Eminem & Rihanna,Rap,0,2013,1,,1,1,13,0
+1028,2000,21,M,OUT WEST,Travis Scott featuring Young Thug,Rap,0,2019,1,,1,1,20,1
+1028,2000,21,M,Levitate,Hadouken!,Dance/Electronic,0,2013,0,0,0,,,-13
+1028,2000,21,M,OK,"Robin Schulz, James Blunt",Dance/Electronic,0,2017,0,0,0,,,-17
+1028,2000,21,M,Dare (La La La),Shakira,Dance/Electronic,0,2014,0,0,0,,,-14
+1028,2000,21,M,Part II (On The Run),JAY-Z & Beyonce,R&B and Hip-Hop,0,2013,0,,,,,-13
+1028,2000,21,M,Honey,Mariah Carey,R&B and Hip-Hop,1,1997,0,,,,,3
+1028,2000,21,M,You Make Me Feel Brand New,The Stylistics,R&B and Hip-Hop,1,1973,0,,,,,27
+1028,2000,21,M,Love Me,"Lil Wayne, Drake, Future",Rap,0,2013,1,,1,1,11,-2
+1028,2000,21,M,Tapout,"Rich Gang, Lil Wayne, Birdman, Mack Maine, Nicki Minaj, Future",Rap,1,2013,1,,1,1,12,-1
+1028,2000,21,M,Crooked Smile,J. Cole featuring TLC,Rap,1,2013,1,,1,1,18,5
+1028,2000,21,M,Just One Last Time,David Guetta featuring Taped Rai,Dance/Electronic,1,2011,0,0,0,,,-11
+1028,2000,21,M,Faded,ZHU,Dance/Electronic,1,2014,0,1,1,1,19,5
+1028,2000,21,M,Divine Sorrow,Brody,Dance/Electronic,1,2014,0,0,0,,,-14
+1018,1985,36,F,I Bet You Look Good On The Dancefloor,Arctic Monkeys,Alternative,0,2006,0,0,0,,,-21
+1018,1985,36,F,Lifeline,Papa Roach,Alternative,0,2009,1,,0,,,-24
+1018,1985,36,F,Hypnotize,System of a Down,Alternative,0,2005,1,,0,,,-20
+1018,1985,36,F,Coming Undone,Korn,Rock,0,2005,0,0,1,0,,-20
+1018,1985,36,F,Twisted Transistor,Korn,Rock,0,2005,0,0,1,0,,-20
+1018,1985,36,F,What I've Done,Linkin Park,Rock,0,2007,1,,1,0,,-22
+1018,1985,36,F,What Hurts The Most,Rascal Flatts,Pop,0,2006,1,,1,1,17,-4
+1018,1985,36,F,Taking Chances,Celine Dion,Pop,0,2008,0,0,0,,,-23
+1018,1985,36,F,Photograph,Nickelback,Pop,0,2005,1,,1,1,20,0
+1018,1985,36,F,Up All Night,Beck,Alternative,1,2017,1,,1,1,20,-12
+1018,1985,36,F,Whatever It Takes,Imagine Dragons,Alternative,1,2017,1,,1,1,29,-3
+1018,1985,36,F,The Adventures of Rain Dance Maggie,Red Hot Chili Peppers,Alternative,1,2011,0,0,1,1,16,-10
+1018,1985,36,F,Lonely Boy,The Black Keys,Rock,1,2011,1,,1,1,25,-1
+1018,1985,36,F,Fear Inoculum,TOOL,Rock,1,2019,0,0,0,,,-34
+1018,1985,36,F,You're The One,Greta Van Fleet,Rock,1,2018,0,0,1,1,26,-7
+1018,1985,36,F,Let Me Love You,DJ Snake & Justin Bieber,Pop,1,2016,1,,0,,,-31
+1018,1985,36,F,What About Us,P!nk,Pop,1,2017,0,1,1,1,16,-16
+1018,1985,36,F,Give You Up,Dido,Pop,1,2019,0,1,1,1,19,-15
+1020,2000,21,F,Too Good At Goodbyes,Sam Smith,Pop,0,2017,1,,1,1,16,-1
+1020,2000,21,F,We Don't Talk Anymore,Charlie Puth featuring Selena Gomez,Pop,0,2016,1,,1,1,16,0
+1020,2000,21,F,human,Christina Perri,Pop,0,2014,1,,1,1,13,-1
+1020,2000,21,F,I Really Wish I Hated You,blink-182,Alternative,0,2019,1,,0,,,-19
+1020,2000,21,F,Hold On,Alabama Shakes,Alternative,0,2012,1,,0,,,-12
+1020,2000,21,F,Breathing Underwater,Metric,Alternative,0,2012,0,0,0,,,-12
+1020,2000,21,F,Tapout,"Rich Gang, Lil Wayne, Birdman, Mack Maine, Nicki Minaj, Future",Rap,0,2013,1,,0,,,-13
+1020,2000,21,F,Wild Wild Love,Pitbull featuring G.R.L.,Rap,0,2014,1,,0,,,-14
+1020,2000,21,F,i,Kendrick Lamar,Rap,0,2014,0,1,0,,,-14
+1020,2000,21,F,All My Life,Kenny Rogers,Pop,1,1983,1,,0,,,17
+1020,2000,21,F,Wait For Me,Bob Seger,Pop,1,2006,0,0,0,,,-6
+1020,2000,21,F,La Isla Bonita,Madonna,Pop,1,1986,0,0,0,,,14
+1020,2000,21,F,The Killing Jar,Siouxsie and the Banshees,Alternative,1,1988,0,0,0,,,12
+1020,2000,21,F,"Steady, As She Goes",The Raconteurs,Alternative,1,2006,0,0,0,,,-6
+1020,2000,21,F,Lay Me Down,Dirty Heads & Rome of Sublime,Alternative,1,2012,0,1,0,,,-12
+1020,2000,21,F,Beware,"Big Sean, Lil Wayne, & Jhene Aiko",Rap,0,2013,1,,1,1,16,3
+1020,2000,21,F,High School,Nicki Minaj & Lil Wayne,Rap,1,2012,1,,1,1,14,2
+1020,2000,21,F,Red Nose,Sage The Gemini,Rap,1,2014,1,,1,1,15,1
+1027,2000,21,M,Ride Or Die,The Knocks featuring Foster The People,Alternative,0,2018,1,,1,1,14,-4
+1027,2000,21,M,Trampoline,SHAED,Alternative,0,2018,0,1,1,0,,-18
+1027,2000,21,M,Don't Take The Money,Bleachers,Alternative,0,2017,0,0,1,1,17,0
+1027,2000,21,M,Let Me Live,Rudimental & Major Lazor featuring Anne-Marie & Mr Eazi,Dance/Electronic,0,2019,0,0,0,,,-19
+1027,2000,21,M,Ride It,Regard,Dance/Electronic,0,2019,1,,1,1,21,2
+1027,2000,21,M,Instruction,Jax Jones featuring Demi Lovato & Stefflon Don,Dance/Electronic,0,2017,0,0,0,,,-17
+1027,2000,21,M,Red Nose,Sage The Gemini,Rap,0,2013,1,,1,1,13,0
+1027,2000,21,M,HIGHEST IN THE ROOM,Travis Scott,Rap,0,2019,1,,1,1,19,0
+1027,2000,21,M,Don't Drop That Thun Thun,Finatticz,Rap,0,2012,1,,1,1,13,1
+1027,2000,21,M,Thunder Clatter,Wild Cub,Alternative,1,2014,1,,1,0,,-14
+1027,2000,21,M,Tighten Up,The Black Keys,Alternative,1,2010,1,,1,1,14,4
+1027,2000,21,M,Woman,Wolfmother,Alternative,1,2006,0,0,0,,,-6
+1027,2000,21,M,Working For It,"Zhu, Skrillex, THEY.",Dance/Electronic,0,2016,1,,1,1,18,2
+1027,2000,21,M,Until You Were Gone,"The Chainsmokers, Tritonal, & Emily Warren",Dance/Electronic,0,2015,1,1,1,1,12,-3
+1027,2000,21,M,Just One Last Time,David Guetta featuring Taped Rai,Dance/Electronic,1,2011,1,,0,,,-11
+1027,2000,21,M,F**kin' Problems,"A$AP Rocky featuring Drake, 2 Chainz & Kendrick Lamar",Rap,1,2013,1,,1,1,18,5
+1027,2000,21,M,i,Kendrick Lamar,Rap,1,2014,1,,1,1,13,-1
+1027,2000,21,M,All Gold Everything,Trinidad James,Rap,1,2013,1,,1,1,9,-4
+1013,2003,18,M,Been Away Too Long,Soundgarden,Rock,0,2012,0,0,0,,,-9
+1013,2003,18,M,Work,Pop Evil,Rock,0,2021,0,0,0,,,-18
+1013,2003,18,M,When The Curtain Falls,Greta Van Fleet,Rock,0,2018,0,1,0,,,-15
+1013,2003,18,M,Van Horn,Saint Model,Alternative,0,2021,0,0,1,1,11,-7
+1013,2003,18,M,Way down We Go,KALEO,Alternative,0,2016,1,,0,,,-13
+1013,2003,18,M,Take Me To Church,Hozier,Alternative,0,2014,1,,1,1,15,4
+1013,2003,18,M,Andromeda,Gorillaz featuring DRAM,Dance/Electronic,0,2017,0,0,0,,,-14
+1013,2003,18,M,Middle,DJ Snake & Bipolar Sunshine,Dance/Electronic,0,2016,0,1,0,,,-13
+1013,2003,18,M,Feels,"Calvin Harris & Funk Wav featuring Pharell Williams, Katy Perry & Big Sean",Dance/Electronic,0,2017,0,1,0,,,-14
+1013,2003,18,M,Porn Star Dancing,My Darkest Days & Zakk Wylde,Rock,1,2010,0,0,0,,,-7
+1013,2003,18,M,Hero,Skillet,Rock,1,2009,0,0,0,,,-6
+1013,2003,18,M,Original Fire,Audioslave,Rock,1,2006,0,1,0,,,-3
+1013,2003,18,M,Make It Stop,Rise Against,Alternative,1,2011,0,1,1,1,5,-3
+1013,2003,18,M,Animal I Have Become,Three Days Grace,Alternative,1,2006,0,1,0,,,-3
+1013,2003,18,M,A Different Way,DJ Snake with Lauv,Dance/Electronic,1,2017,0,0,0,,,-14
+1013,2003,18,M,Hold On,NERVO,Dance/Electronic,1,2015,0,0,0,,,-12
+1013,2003,18,M,Thinking About You,Calvin Harris featuring Ayah Marar,Dance/Electronic,1,2012,0,1,0,,,-9
+1013,2003,18,M,King Without a Crown,Matisyahu,Alternative,1,2006,1,,1,1,6,3
+1025,1997,24,M,The Bones,Maren Morris,Country,0,2019,1,,1,0,,-22
+1025,1997,24,M,Pontoon,Little Big Town,Country,0,2013,1,,1,1,17,1
+1025,1997,24,M,She Wouldn't Be Gone,Blake Shelton,Country,0,2008,0,1,0,,,-11
+1025,1997,24,M,All of Me,Big Gigantic featuring Logic & ROZES,Dance/Electronic,0,2016,1,,0,,,-19
+1025,1997,24,M,Holding On,Disclosure & Gregory Porter,Dance/Electronic,0,2015,1,,1,1,18,0
+1025,1997,24,M,Setting Fires,The Chainsmokers & XYLO,Dance/Electronic,0,2016,1,,1,1,19,0
+1025,1997,24,M,Started From the Bottom,Drake,Rap,0,2013,1,,1,1,17,1
+1025,1997,24,M,All Me,"Drake, 2 Chainz, Big Sean",Rap,0,2013,1,,1,0,,-16
+1025,1997,24,M,F**kin' Problems,"A$AP Rocky featuring Drake, 2 Chainz & Kendrick Lamar",Rap,0,2013,1,,1,1,16,0
+1025,1997,24,M,I Wanna Do It All,Terri Clark,Country,1,2003,0,0,0,,,-6
+1025,1997,24,M,You Won't Ever Be Lonely,Andy Griggs,Country,1,1999,0,0,0,,,-2
+1025,1997,24,M,True Love Ways,Mickey Gilley,Country,1,1993,0,0,0,,,4
+1025,1997,24,M,Wake Me Up,Avicii,Dance/Electronic,1,2013,1,,1,1,17,1
+1025,1997,24,M,I Can't Stop,Flux Pavillion,Dance/Electronic,1,2010,1,,1,1,13,0
+1025,1997,24,M,Boy Oh Boy,Diplo & Good Times Ahead,Dance/Electronic,1,2012,0,0,1,1,15,0
+1025,1997,24,M,R.I.P.,Young Jeezy & 2 Chainz,Rap,1,2013,0,0,0,,,-16
+1025,1997,24,M,Neva End,Future,Rap,1,2012,0,0,1,1,15,0
+1025,1997,24,M,All Gold Everything,Trinidad James,Rap,1,2013,0,0,0,,,-16
+1036,2000,21,M,SICKO MODE,Travis Scott,Rap,0,2018,1,,1,1,18,0
+1036,2000,21,M,On Chill,Wale featuring Jeremih,Rap,0,2019,0,1,0,,,-19
+1036,2000,21,M,The Woo,Pop Smoke featuring 50 Cent & Roddy Rich,Rap,0,2020,1,,0,,,-20
+1036,2000,21,M,Murder On My Mind,YNW Melly,Rap,0,2018,1,,1,1,19,1
+1036,2000,21,M,Stir Fry,Migos,Rap,0,2017,1,,0,,,-17
+1036,2000,21,M,Ain't Worried About Nothin,French Montana,Rap,0,2013,1,,1,1,13,0
+1036,2000,21,M,Never Be Like You,Flume featuring kai,Dance/Electronic,0,2016,0,1,1,1,19,3
+1036,2000,21,M,Peanut Butter Jelly,Galantis,Dance/Electronic,0,2015,0,0,0,,,-15
+1036,2000,21,M,Rise,Jonas Blue with Jack & Jack,Dance/Electronic,0,2018,0,0,0,,,-18
+1036,2000,21,M,Type of Way,Rich Homie Quan,Rap,1,2013,1,,1,1,13,0
+1036,2000,21,M,Everyday We Lit,YFN Lucci featuring PnB Rock,Rap,0,2017,1,,1,1,16,-1
+1036,2000,21,M,Can't Hold Us,Macklemore & Ryan Lewis featuring Ray Dalton,Rap,1,2012,0,1,1,1,10,-2
+1036,2000,21,M,Power Trip,J. Cole featuring Miguel,Rap,1,2013,1,,1,0,,-13
+1036,2000,21,M,My Hitta,"YG, Young Jeezy, Rich Homie Quan",Rap,1,2013,1,,0,,,-13
+1036,2000,21,M,Ball,T.I. featuring Lil Wayne,Rap,1,2009,0,1,1,1,14,5
+1036,2000,21,M,How to Love,Cash Cash featuring Sofia Reyes,Dance/Electronic,1,2016,0,0,0,,,-16
+1036,2000,21,M,Summer,Calvin Harris,Dance/Electronic,1,2014,0,0,0,,,-14
+1036,2000,21,M,#SELFIE,The Chainsmokers,Dance/Electronic,1,2014,0,0,0,,,-14
+1024,2000,21,M,Take Back the Night,Justin Timberlake,R&B and Hip-Hop,0,2013,1,1,0,1,13,0
+1024,2000,21,M,Fuck Love,XXXTENTACION featuring Trippie Redd,R&B and Hip-Hop,0,2017,1,,0,,,-17
+1024,2000,21,M,Right Above It,Lil Wayne & Drake,R&B and Hip-Hop,0,2010,1,,1,1,17,7
+1024,2000,21,M,Live for the Night,Krewella,Dance/Electronic,0,2013,0,0,0,,,-13
+1024,2000,21,M,Something Just Like This,The Chainsmokers & Coldplay,Dance/Electronic,0,2017,1,,1,1,18,1
+1024,2000,21,M,Knock You Out,Bingo Players,Dance/Electronic,0,2014,0,0,0,,,-14
+1024,2000,21,M,Antisocialist,Asking Alexandria,Rock,0,2020,0,0,0,,,-20
+1024,2000,21,M,Stupid Girl (Only In Hollywood),Saving Abel,Rock,0,2010,0,0,0,,,-10
+1024,2000,21,M,Adrenaline,Shinedown,Rock,0,2012,0,1,0,,,-12
+1024,2000,21,M,Starboy,The Weeknd & Daft Punk,R&B and Hip-Hop,1,2016,1,,1,1,16,0
+1024,2000,21,M,The Monster,Eminem & Rihanna,R&B and Hip-Hop,1,2013,1,,1,1,14,1
+1024,2000,21,M,Me And Those Dreamin' Eyes...,D'Angelo,R&B and Hip-Hop,1,1995,0,0,0,,,5
+1024,2000,21,M,Forever Now,Ne-Yo,Dance/Electronic,1,2012,0,0,0,,,-12
+1024,2000,21,M,Be Together,Major Lazor with Wild Belle,Dance/Electronic,1,2015,0,1,0,,,-15
+1024,2000,21,M,Be Right There,Diplo with Sleepy Tom,Dance/Electronic,1,2015,0,0,0,,,-15
+1024,2000,21,M,What You Need,INXS,Rock,1,1985,0,0,0,,,15
+1024,2000,21,M,Through Glass,Stone Sour,Rock,1,2006,0,0,0,,,-6
+1024,2000,21,M,The Love In Your Eyes,Eddie Money,Rock,1,1988,0,0,0,,,12
+1004,2000,21,F,Ring,Cardi B featuring Kehlani,R&B and Hip-Hop,0,2018,1,,1,1,17,-1
+1004,2000,21,F,I Do,"Young Jeezy, JAY-Z, & André 3000",R&B and Hip-Hop,0,2011,1,,1,1,13,2
+1004,2000,21,F,THat Part,Schoolboy Q & Kanye West,R&B and Hip-Hop,0,2016,0,1,1,1,19,3
+1004,2000,21,F,Telephone,Lady Gaga & Beyonce,Dance/Electronic,1,2009,1,,1,1,9,0
+1004,2000,21,F,Forever Yours,"Kygo, Avicii, & Sandro Cavazza",Dance/Electronic,0,2020,0,0,0,,,-20
+1004,2000,21,F,Get Lucky,Daft Punk featuring Pharell Williams & Nile Rodgers,Dance/Electronic,0,2013,1,,1,1,12,-1
+1004,2000,21,F,Walking On a Dream,Empire of the Sun,Alternative,1,2008,1,,1,1,15,7
+1004,2000,21,F,Kamikazi,Walk the Moon,Alternative,0,2017,0,0,0,,,-17
+1004,2000,21,F,The Way You Used To Go,Queens of the Stone Age,Alternative,0,2017,0,0,0,,,-17
+1004,2000,21,F,ABC,The Jackson 5,R&B and Hip-Hop,1,1970,1,,1,1,7,37
+1004,2000,21,F,Sometimes,The Facts of Life,R&B and Hip-Hop,1,1977,0,0,0,,,23
+1004,2000,21,F,Watch Me (Whip/Nay Nay),Silentó,R&B and Hip-Hop,0,2015,1,,1,1,14,-1
+1004,2000,21,F,Never Sleep Alone,Kaskade featuring Tess Comrie,Dance/Electronic,0,2015,0,0,0,,,-15
+1004,2000,21,F,Easy,Matt Zo & Porter Robinson,Dance/Electronic,1,2013,0,0,0,,,-13
+1004,2000,21,F,Give Life Back to Music,Daft Punk,Dance/Electronic,1,2013,0,0,0,,,-13
+1004,2000,21,F,Bleed It Out,Linkin Park,Alternative,1,2007,0,1,0,,,-7
+1004,2000,21,F,Bat Country,Avenged Sevenfold,Alternative,1,2005,0,0,0,,,-5
+1004,2000,21,F,DARE,Gorillaz,Alternative,1,2005,0,0,0,,,-5
+1026,1979,42,M,Twisted Transistor,Korn,Alternative,0,2005,1,,1,1,16,-10
+1026,1979,42,M,When We Were Young,The Killers,Alternative,0,2006,1,,0,,,-27
+1026,1979,42,M,No Way Back,Foo Fighters,Alternative,0,2005,1,,0,,,-26
+1026,1979,42,M,No Myth,Michael Penn,Rock,0,1989,1,,0,,,-10
+1026,1979,42,M,Animal I Have Become,Three Days Grace,Rock,0,2006,1,,1,0,,-27
+1026,1979,42,M,Shine Down,Godsmack,Rock,0,2006,1,,1,1,19,-8
+1026,1979,42,M,Put Your Records On,Ritt Momney,Pop,1,2020,0,0,0,,,-41
+1026,1979,42,M,Have You Ever Seen The Rain,Rod Stewart,Pop,0,2006,1,,1,1,9,-18
+1026,1979,42,M,Crazy,Gnarls Barkley,Pop,0,2006,1,,1,1,26,-1
+1026,1979,42,M,Savior,Rise Against,Alternative,1,2008,1,,0,,,-29
+1026,1979,42,M,Little Lion Man,Mumford & Sons,Alternative,1,2009,1,,1,0,,-30
+1026,1979,42,M,Welcome to Your Life,Grouplove,Alternative,1,2017,1,,1,1,36,-2
+1026,1979,42,M,This Probably Won't End Well,All That Remains,Rock,1,2015,0,0,0,,,-36
+1026,1979,42,M,Love Bites (So Do I),Halestorm,Rock,1,2012,1,,1,1,8,-25
+1026,1979,42,M,S.O.S. (Sawwed Off Shotgun),The Glorious Sons,Rock,1,2017,0,0,0,,,-38
+1026,1979,42,M,Without You,David Guetta featuring Usher,Pop,1,2011,1,,0,,,-32
+1026,1979,42,M,Back To You,Selena Gomez,Pop,1,2018,1,,1,1,39,0
+1026,1979,42,M,Let's Stay Together,Seal,Pop,1,2012,1,,1,1,18,-15
+1037,1999,22,M,The Climb,Miley Cyrus,Pop,0,2009,1,,1,0,,-10
+1037,1999,22,M,I Like Me Better,Lauv,Pop,0,2018,1,,1,1,16,-3
+1037,1999,22,M,I Won't Give Up,Jason Mraz,Pop,0,2012,0,1,1,1,14,1
+1037,1999,22,M,Portland,"Drake, Quavo & Travis Scott",Rap,0,2017,1,,1,1,16,-2
+1037,1999,22,M,23,"Mike WiLL Made-It, Miley Cyrus, Wiz Khalifa, & Juicy J",Rap,0,2013,1,,1,1,13,-1
+1037,1999,22,M,No Worries,Lil Wayne & Detail,Rap,0,2013,1,,1,1,15,1
+1037,1999,22,M,BEST ON EARTH,Russ featuring BIA,R&B and Hip-Hop,0,2020,1,,1,1,17,-4
+1037,1999,22,M,Aston Martin Music,"Rick Ross, Drake, & Chrisette Michele",R&B and Hip-Hop,0,2010,1,,1,1,14,3
+1037,1999,22,M,Main Chick,Kid Ink featuring Chris Brown,R&B and Hip-Hop,0,2014,1,,1,1,14,-1
+1037,1999,22,M,Me And My Broken Heart,Rixton,Pop,1,2014,0,1,0,,,-15
+1037,1999,22,M,You're Beautiful,James Blunt,Pop,1,2005,0,1,1,0,,-6
+1037,1999,22,M,Wildest Dreams,Taylor Swift,Pop,0,2014,1,,0,,,-15
+1037,1999,22,M,The Monster,Eminem & Rihanna,Rap,1,2013,1,,1,1,12,-2
+1037,1999,22,M,Battle Scars,Lupe Fiasco & Guy Sebastian,Rap,1,2012,1,,1,1,11,-2
+1037,1999,22,M,Bad,Wale featuring Rihanna,Rap,1,2013,1,,1,1,11,-3
+1037,1999,22,M,"Can't Stop, Won't Stop",Young Gunz,R&B and Hip-Hop,1,2003,0,0,0,,,-4
+1037,1999,22,M,Waterfalls,TLC,R&B and Hip-Hop,1,1994,1,,1,1,10,15
+1037,1999,22,M,Neither One Of Us,Gladys Knight & The Pips,R&B and Hip-Hop,1,1973,0,0,0,,,26
+1038,2000,21,M,Highway Tune,Greta Van Fleet,Rock,0,2017,0,0,0,,,-17
+1038,2000,21,M,One For the Money,Escape the Fate,Rock,0,2013,0,1,0,,,-13
+1038,2000,21,M,Living In A Dream,Finger Eleven,Rock,0,2010,0,0,0,,,-10
+1038,2000,21,M,goosebumps,Travis Scott,Rap,0,2016,1,,1,1,16,0
+1038,2000,21,M,Back To Back,Drake,Rap,0,2015,1,,1,1,13,-2
+1038,2000,21,M,HIGHEST IN THE ROOM,Travis Scott,Rap,0,2019,1,,1,1,20,1
+1038,2000,21,M,Walk,Foo Fighters,Rock,0,2011,0,1,1,1,14,3
+1038,2000,21,M,White Trash Millionaire,Black Stone Cherry,Rock,0,2011,0,0,0,,,-11
+1038,2000,21,M,Mind Your Manners,Pearl Jam,Rock,0,2013,1,,1,1,10,-3
+1038,2000,21,M,Fake It,Seether,Rock,1,2007,0,0,0,,,-7
+1038,2000,21,M,Snuff,Slipknot,Rock,1,2008,0,0,0,,,-8
+1038,2000,21,M,What About Love?,Heart,Rock,1,1985,1,,0,,,15
+1038,2000,21,M,R.I.P.,Young Jeezy & 2 Chainz,Rap,1,2013,0,1,0,,,-13
+1038,2000,21,M,Bugatti,"Ace Hood, Future & Rick Ross",Rap,1,2013,1,,1,1,16,3
+1038,2000,21,M,Same Love,Macklemore & Ryan Lewis featuring Mary Lambert,Rap,1,2012,1,,0,,,-12
+1038,2000,21,M,I Think I Love You Too Much,The Jeff Healey Band,Rock,1,1990,0,0,0,,,10
+1038,2000,21,M,Shine Down,Godsmack,Rock,1,2006,0,0,0,,,-6
+1038,2000,21,M,Rock or Bust,AC/DC,Rock,1,2014,0,1,0,,,-14
+1042,2000,21,M,I Wanna Rock,Snoop Dogg,R&B and Hip-Hop,0,2010,0,1,0,,,-10
+1042,2000,21,M,Broccoli,Shelley FKA DRAM & Lil Yachty,R&B and Hip-Hop,0,2016,1,,1,1,16,0
+1042,2000,21,M,Drip Too Hard,Lil Baby & Gunna,R&B and Hip-Hop,0,2018,1,,0,,,-18
+1042,2000,21,M,Baby,Quality Control & Lil Baby featuring DaBaby,Rap,0,2019,1,,0,,,-19
+1042,2000,21,M,No Type,Rae Sremmurd,Rap,0,2015,1,,1,1,15,0
+1042,2000,21,M,I Cry,Flo Rida,Rap,0,2012,0,1,0,,,-12
+1042,2000,21,M,Dangerous,Seether,Rock,0,2020,0,0,0,,,-20
+1042,2000,21,M,Revolution Radio,Green Day,Rock,0,2016,0,1,0,,,-16
+1042,2000,21,M,Back From The Dead,Skillet,Rock,0,2016,0,1,0,,,-16
+1042,2000,21,M,Boogie Nights,Heatwave,R&B and Hip-Hop,1,1977,1,,0,,,23
+1042,2000,21,M,A Woman's Point of View,Shirley Murdock,R&B and Hip-Hop,1,1988,0,1,0,,,12
+1042,2000,21,M,"That Lady, Pts. 1 & 2",The Isley Brothers,R&B and Hip-Hop,1,1973,1,,0,,,27
+1042,2000,21,M,Same Love,Macklemore & Ryan Lewis featuring Mary Lambert,Rap,1,2012,1,,0,,,-12
+1042,2000,21,M,Poetic Justice,Kendrick Lamar & Drake,Rap,1,2012,1,,0,,,-12
+1042,2000,21,M,All Me,"Drake, 2 Chainz, Big Sean",Rap,1,2013,0,1,0,,,-13
+1042,2000,21,M,Lips Of An Angel,Hinder,Rock,1,2005,1,,1,1,13,8
+1042,2000,21,M,Vicarious,TOOL,Rock,1,2006,0,0,0,,,-6
+1042,2000,21,M,Falling,Staind,Rock,1,2005,0,0,0,,,-5
+1043,1999,22,M,Decode,Paramore,Alternative,1,2008,0,0,0,,,-9
+1043,1999,22,M,If So,Atlas Genius,Alternative,0,2013,1,,1,1,12,-2
+1043,1999,22,M,Harlem,New Politics,Alternative,0,2013,1,,1,1,12,-2
+1043,1999,22,M,Just Hold On,Steve Aoki & Louis Tomlinson,Dance/Electronic,0,2018,0,0,1,1,19,0
+1043,1999,22,M,Kanye,The Chainsmokers & sirenXX,Dance/Electronic,0,2014,1,,1,1,18,3
+1043,1999,22,M,Crab Rave,Noisestorm,Dance/Electronic,0,2018,1,,1,1,21,2
+1043,1999,22,M,Sick Of It,Skillet,Rock,0,2013,0,0,0,,,-14
+1043,1999,22,M,Hold on to Memories,Disturbed,Rock,0,2018,0,0,0,,,-19
+1043,1999,22,M,You're A Lie,Slash & Myles Kennedy and the Conspirators,Rock,0,2012,0,0,0,,,-13
+1043,1999,22,M,Tell Me Baby,Red Hot Chili Peppers,Alternative,1,2006,1,,1,1,21,14
+1043,1999,22,M,Bat Country,Avenged Sevenfold,Alternative,1,2005,1,,1,1,12,6
+1043,1999,22,M,Carolyn's Fingers,Cocteau Twins,Alternative,1,1988,0,0,0,,,11
+1043,1999,22,M,All Night,Icona Pop,Dance/Electronic,1,2013,0,0,0,,,-14
+1043,1999,22,M,Vocal,Pet Shop Boys,Dance/Electronic,1,2013,0,0,0,,,-14
+1043,1999,22,M,Express Yourself,Diple featuring Nicky Da B,Dance/Electronic,1,2014,0,0,0,,,-15
+1043,1999,22,M,Fully Alive,Flyleaf,Rock,1,2006,0,0,0,,,-7
+1043,1999,22,M,Across the River,Bruce Hornsby & The Range,Rock,1,1990,0,0,0,,,9
+1043,1999,22,M,Figure It Out,Royal Blood,Rock,0,2014,0,1,0,,,-15
+1039,2000,21,M,High Fashion,Roddy Rich featuring Mustard,Rap,0,2019,1,,1,1,17,-2
+1039,2000,21,M,Low Life,Future featuring The Weeknd,Rap,0,2016,1,,0,,,-16
+1039,2000,21,M,Father Stretch My Hands Pt. 1,Kanye West,Rap,0,2016,1,,1,1,10,-6
+1039,2000,21,M,Battle Scars,Lupe Fiasco & Guy Sebastian,Rap,0,2012,0,0,0,,,-12
+1039,2000,21,M,Ball,T.I. featuring Lil Wayne,Rap,0,2012,1,,1,1,13,1
+1039,2000,21,M,All Day,"Kanye West, Theophilus London, Allan Kingdom, & Paul McCartney",Rap,0,2015,1,,0,,,-15
+1039,2000,21,M,Hearts Ain't Gonna Lie,Arlissa with Jonas Blue,Dance/Electronic,0,2018,0,0,1,1,14,-4
+1039,2000,21,M,I Can't Stop,Flux Pavillion,Dance/Electronic,1,2010,0,1,0,,,-10
+1039,2000,21,M,Jubel,Klingande,Dance/Electronic,0,2014,0,0,0,,,-14
+1039,2000,21,M,No New Friends - SFTB Remix,"DJ Khaled, Drake, Rick Ross, & Lil Wayne",Rap,1,2013,0,1,1,1,15,2
+1039,2000,21,M,Bad,Wale featuring Rihanna,Rap,1,2013,0,1,0,,,-13
+1039,2000,21,M,No Worries,Lil Wayne & Detail,Rap,1,2013,1,,1,1,14,1
+1039,2000,21,M,Broccoli,Shelley FKA DRAM & Lil Yachty,Rap,0,2016,1,,1,1,17,1
+1039,2000,21,M,Gas Pedal,Sage the Gemini & Iamsu!,Rap,1,2014,0,1,1,0,,-14
+1039,2000,21,M,Same Love,Macklemore & Ryan Lewis featuring Mary Lambert,Rap,1,2012,0,1,1,1,16,4
+1039,2000,21,M,By Your Side,Jonas Blue & RAYE,Dance/Electronic,1,2016,1,,0,,,-16
+1039,2000,21,M,Coming Over,Dillon Francis & Kygo featuring James Hersey,Dance/Electronic,1,2015,0,1,0,,,-15
+1039,2000,21,M,Try It Out,Skrillex,Dance/Electronic,1,2014,0,1,1,1,14,0
+1040,2000,21,M,Who Do You Love,The Chainsmokers & 5 Seconds of Summer,Dance/Electronic,0,2019,0,0,0,,,-19
+1040,2000,21,M,Lily,"Alan Walker, K-391 & Emelie Hollow",Dance/Electronic,0,2018,1,,1,1,18,0
+1040,2000,21,M,Que Calor,Major Lazer & Diplo featuring J Balvin & El Alfa,Dance/Electronic,0,2019,1,,1,1,18,-1
+1040,2000,21,M,Homesick,Kane Brown,Country,0,2019,0,0,0,,,-19
+1040,2000,21,M,Something To Do With My Hands,Thomas Rhett,Country,0,2013,0,0,0,,,-13
+1040,2000,21,M,Friday Night,Eric Paslay,Country,0,2014,1,,1,1,16,2
+1040,2000,21,M,City of Angels,Thirty Seconds To Mars,Alternative,0,2013,1,,0,,,-13
+1040,2000,21,M,I'm Only Joking,KONGOS,Alternative,0,2014,0,0,0,,,-14
+1040,2000,21,M,Pumped Up Kicks,Foster The People,Alternative,0,2011,1,,1,1,21,10
+1040,2000,21,M,Into the Blue,Kylie Minogue,Dance/Electronic,1,2014,0,0,0,,,-14
+1040,2000,21,M,Poker Face,Lady Gaga,Dance/Electronic,1,2008,1,,1,1,18,10
+1040,2000,21,M,All Night,Icona Pop,Dance/Electronic,1,2013,1,,0,,,-13
+1040,2000,21,M,You Can Depend On Me,Restless Heart,Country,1,2003,0,0,0,,,-3
+1040,2000,21,M,If I Never Stop Loving You,David Kersh,Country,1,1998,0,0,0,,,2
+1040,2000,21,M,Tell Me Why,Wynonna,Country,1,1993,1,,0,,,7
+1040,2000,21,M,Welcome to Your Life,Grouplove,Alternative,0,2017,1,,1,1,16,-1
+1040,2000,21,M,Shut Up and Dance,Walk the Moon,Alternative,0,2014,1,,1,1,17,3
+1040,2000,21,M,Lights and Sounds,Yellowcard,Alternative,1,2006,1,,1,1,19,13
+1046,2001,20,M,Body 2 Body,Ace Hood & Chris Brown,R&B and Hip-Hop,0,2011,0,0,0,,,-10
+1046,2001,20,M,Pills & Automobiles,Chris Brown featuring Yo Gotti & A Boogie Wit da Hoodie,R&B and Hip-Hop,0,2017,0,1,0,,,-16
+1046,2001,20,M,Nowadays,Lil Skies featuring Landon Cube,R&B and Hip-Hop,0,2017,0,0,0,,,-16
+1046,2001,20,M,Thunder,Imagine Dragons,Pop,0,2017,1,,1,1,17,1
+1046,2001,20,M,Dark Horse,Katy Perry & Juicy J,Pop,0,2013,1,,1,1,14,2
+1046,2001,20,M,The One That Got Away,Katy Perry,Pop,0,2012,1,,1,0,,-11
+1046,2001,20,M,Lost In Yesterday,Tame Impala,Alternative,0,2020,1,,0,,,-19
+1046,2001,20,M,Miracle,CHVRCHES,Alternative,0,2018,0,0,0,,,-17
+1046,2001,20,M,Make Some Noise,Beastie Boys,Alternative,0,2011,0,1,0,,,-10
+1046,2001,20,M,Hang On In There Baby,Johnny Bristol,R&B and Hip-Hop,1,1974,1,,0,,,27
+1046,2001,20,M,Hold You Tight,Tara Kemp,R&B and Hip-Hop,1,1991,1,,0,,,10
+1046,2001,20,M,Diced Pineapples,"Rick Ross, Wale & Drake",R&B and Hip-Hop,1,2012,0,0,0,,,-11
+1046,2001,20,M,Don't Go Breaking My Heart,Elton John & Kiki Dee,Pop,1,1975,1,,1,1,5,31
+1046,2001,20,M,Walk On By,Melissa Manchester,Pop,1,1989,0,1,0,,,12
+1046,2001,20,M,Bad Day,Daniel Powter,Pop,1,2005,1,,1,1,10,6
+1046,2001,20,M,DARE,Gorillaz,Alternative,1,2005,1,,1,1,7,3
+1046,2001,20,M,The Diary Of Jane,Breaking Benjamin,Alternative,1,2011,0,1,1,1,8,-2
+1046,2001,20,M,Soul Meets Body,Death Cab for Cutie,Alternative,1,2005,0,0,0,,,-4
+1003,2002,19,F,How I'll Always Be,Tim McGraw,Country,0,2015,0,1,0,,,-13
+1003,2002,19,F,"Huntin', Fishin', And Lovin' Everyday",Luke Bryan,Country,0,2015,1,,1,1,7,-6
+1003,2002,19,F,Lonely If You Are,Chase Rice,Country,0,2020,1,,1,1,16,-2
+1003,2002,19,F,Da Ya Think I'm Sexy,Rod Stewart & DNCE,Pop,0,2017,0,1,0,,,-15
+1003,2002,19,F,One Less Day (Dying Young),Rob Thomas,Pop,0,2019,0,0,0,,,-17
+1003,2002,19,F,Scars To Your Beautiful,Alessia Cara,Pop,0,2015,1,,1,1,17,4
+1003,2002,19,F,Going Bad,Meek Mill featuring Drake,R&B and Hip-Hop,0,2018,1,,1,1,17,1
+1003,2002,19,F,Talk,Khalid & Disclosure,R&B and Hip-Hop,0,2019,0,1,0,,,-17
+1003,2002,19,F,Feds Watching,2 Chainz & Pharell Williams,R&B and Hip-Hop,0,2013,0,0,0,,,-11
+1003,2002,19,F,Alcohol,Brad Paisley,Country,1,2005,0,0,0,,,-3
+1003,2002,19,F,Learning As You Go,Rick Trevino,Country,1,1993,0,0,0,,,9
+1003,2002,19,F,Quits,Bill Anderson,Country,1,1980,0,1,0,,,22
+1003,2002,19,F,Like We Never Loved at All,Faith Hill,Pop,1,2005,0,0,0,,,-3
+1003,2002,19,F,Sundown,Gordon Lightfoot,Pop,1,1974,0,1,1,1,16,44
+1003,2002,19,F,I Can't Tell You Why,Eagles,Pop,1,1979,0,0,0,,,23
+1003,2002,19,F,Touch A Four Leaf Clover,Atlantic Starr,R&B and Hip-Hop,1,1983,0,0,1,1,9,28
+1003,2002,19,F,You're Always On My Mind,SWV,R&B and Hip-Hop,1,1992,0,0,0,,,10
+1003,2002,19,F,Shake Your Groove Thing,Peaches & Herb,R&B and Hip-Hop,1,1978,0,1,1,1,7,31
